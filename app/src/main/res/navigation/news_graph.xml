@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_graph"
+    app:startDestination="@+id/sources">
+
+    <fragment
+        android:id="@+id/sources"
+        android:name="dev.dextra.newsapp.feature.sources.SourcesFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_sources" >
+
+        <action
+            android:id="@+id/navigate_to_news"
+            app:destination="@id/news" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/news"
+        android:name="dev.dextra.newsapp.feature.news.NewsFragment"
+        android:label="{source}"
+        tools:layout="@layout/fragment_news" >
+
+        <argument
+            android:name="source"
+            app:argType="dev.dextra.newsapp.api.model.Source" />
+
+    </fragment>
+
+</navigation>

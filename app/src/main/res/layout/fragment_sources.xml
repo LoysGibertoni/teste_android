@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context=".feature.sources.SourcesActivity"
+    tools:context=".feature.MainActivity"
     android:descendantFocusability="beforeDescendants"
     android:focusableInTouchMode="true">
-
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -68,11 +66,13 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sources_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         style="@style/ListStyle"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:id="@+id/sources_list"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="1"
         tools:listitem="@layout/item_source"/>
 
     <include layout="@layout/empty_state"

@@ -1,31 +1,25 @@
 package dev.dextra.newsapp.feature.sources
 
-import android.app.ActivityOptions
-import android.content.Intent
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup.LayoutParams.MATCH_PARENT
+import android.view.ViewGroup
 import android.widget.LinearLayout
-import android.widget.LinearLayout.HORIZONTAL
-import android.widget.LinearLayout.VERTICAL
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.textfield.TextInputLayout
 import dev.dextra.newsapp.R
 import dev.dextra.newsapp.api.model.Source
 import dev.dextra.newsapp.api.model.enums.Category
 import dev.dextra.newsapp.api.model.enums.Country
-import dev.dextra.newsapp.base.BaseListActivity
-import dev.dextra.newsapp.feature.news.NEWS_ACTIVITY_SOURCE
-import dev.dextra.newsapp.feature.news.NewsActivity
+import dev.dextra.newsapp.base.BaseListFragment
 import dev.dextra.newsapp.feature.sources.adapter.CustomArrayAdapter
 import dev.dextra.newsapp.feature.sources.adapter.SourcesListAdapter
-import kotlinx.android.synthetic.main.activity_sources.*
-import org.koin.android.ext.android.inject
+import kotlinx.android.synthetic.main.fragment_sources.*
+import org.koin.android.viewmodel.ext.android.viewModel
 
-
-class SourcesActivity : BaseListActivity(), SourcesListAdapter.SourceListAdapterItemListener {
+class SourcesFragment : BaseListFragment(), SourcesListAdapter.SourceListAdapterItemListener {
 
     override val emptyStateTitle: Int = R.string.empty_state_title_source
     override val emptyStateSubTitle: Int = R.string.empty_state_subtitle_source
@@ -34,22 +28,31 @@ class SourcesActivity : BaseListActivity(), SourcesListAdapter.SourceListAdapter
     override val mainList: View
         get() = sources_list
 
-    val sourcesViewModel: SourcesViewModel by inject()
+    private val sourcesViewModel: SourcesViewModel by viewModel()
 
     private var viewAdapter: SourcesListAdapter = SourcesListAdapter(this)
-    private var viewManager: RecyclerView.LayoutManager = GridLayoutManager(this, 1)
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        setContentView(R.layout.activity_sources)
-        setupView()
-        loadSources()
         super.onCreate(savedInstanceState)
+        loadSources()
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        return inflater.inflate(R.layout.fragment_sources, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setupView()
     }
 
     private fun setupList() {
         sources_list.apply {
             setHasFixedSize(true)
-            layoutManager = viewManager
             adapter = viewAdapter
         }
     }
@@ -78,13 +81,13 @@ class SourcesActivity : BaseListActivity(), SourcesListAdapter.SourceListAdapter
 
     private fun configureAutocompletes() {
         val countryAdapter = CustomArrayAdapter(
-            this,
+            requireContext(),
             R.layout.select_item,
             Country.values().toMutableList()
         )
         country_select.setAdapter(countryAdapter)
         country_select.keyListener = null
-        country_select.setOnItemClickListener { parent, view, position, id ->
+        country_select.setOnItemClickListener { parent, _, position, _ ->
             val item = parent.getItemAtPosition(position)
             if (item is Country) {
                 sourcesViewModel.changeCountry(item)
@@ -93,13 +96,13 @@ class SourcesActivity : BaseListActivity(), SourcesListAdapter.SourceListAdapter
 
         category_select.setAdapter(
             CustomArrayAdapter(
-                this,
+                requireContext(),
                 R.layout.select_item,
                 Category.values().toMutableList()
             )
         )
         category_select.keyListener = null
-        category_select.setOnItemClickListener { parent, view, position, id ->
+        category_select.setOnItemClickListener { parent, _, position, _ ->
             val item = parent.getItemAtPosition(position)
             if (item is Category) {
                 sourcesViewModel.changeCategory(item)
@@ -108,21 +111,20 @@ class SourcesActivity : BaseListActivity(), SourcesListAdapter.SourceListAdapter
     }
 
     override fun onClick(source: Source) {
-        val intent = Intent(this, NewsActivity::class.java)
-        intent.putExtra(NEWS_ACTIVITY_SOURCE, source)
-        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
+        val directions = SourcesFragmentDirections.navigateToNews(source)
+        findNavController().navigate(directions)
     }
 
     override fun setupPortrait() {
         setListColumns(1)
-        sources_filters.orientation = VERTICAL
-        configureFilterLayoutParams(country_select_layout, MATCH_PARENT, 0f)
-        configureFilterLayoutParams(category_select_layout, MATCH_PARENT, 0f)
+        sources_filters.orientation = LinearLayout.VERTICAL
+        configureFilterLayoutParams(country_select_layout, ViewGroup.LayoutParams.MATCH_PARENT, 0f)
+        configureFilterLayoutParams(category_select_layout, ViewGroup.LayoutParams.MATCH_PARENT, 0f)
     }
 
     override fun setupLandscape() {
         setListColumns(2)
-        sources_filters.orientation = HORIZONTAL
+        sources_filters.orientation = LinearLayout.HORIZONTAL
         configureFilterLayoutParams(country_select_layout, 0, 1f)
         configureFilterLayoutParams(category_select_layout, 0, 1f)
     }

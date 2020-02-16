@@ -7,7 +7,5 @@
     <color name="textColorPrimary">#26221f</color>
     <color name="textColorSecondary">#332e29</color>
     <color name="white">#FFFFFF</color>
-    <color name="white50p">#7fffffff</color>
-    <color name="transparent">#00000000</color>
     <color name="black">#000000</color>
 </resources>

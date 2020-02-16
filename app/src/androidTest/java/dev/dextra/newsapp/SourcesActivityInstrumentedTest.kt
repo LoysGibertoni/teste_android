@@ -20,7 +20,7 @@ import dev.dextra.newsapp.base.BaseInstrumentedTest
 import dev.dextra.newsapp.base.FileUtils
 import dev.dextra.newsapp.base.TestSuite
 import dev.dextra.newsapp.base.mock.endpoint.ResponseHandler
-import dev.dextra.newsapp.feature.sources.SourcesActivity
+import dev.dextra.newsapp.feature.MainActivity
 import dev.dextra.newsapp.utils.JsonUtils
 import okhttp3.Request
 import org.hamcrest.CoreMatchers.equalTo
@@ -30,7 +30,6 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import java.lang.RuntimeException
 
 @RunWith(AndroidJUnit4::class)
 class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
@@ -39,7 +38,7 @@ class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
     val brazilResponse = SourceResponse(listOf(Source("cat", "BR", "Test Brazil Description", "1234", "PT", "Test Brazil", "http://www.google.com.br")), "ok")
 
     @get:Rule
-    val activityRule = ActivityTestRule(SourcesActivity::class.java, false, false)
+    val activityRule = ActivityTestRule(MainActivity::class.java, false, false)
 
     @Before
     fun setupTest() {

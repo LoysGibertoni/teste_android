@@ -18,4 +18,6 @@ data class Source(
     val name: String,
     @SerializedName("url")
     val url: String
-) : Serializable
+) : Serializable {
+    override fun toString(): String = name
+}

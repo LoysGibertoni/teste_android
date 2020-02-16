@@ -11,6 +11,8 @@ buildscript {
         rxAndroidVersion = '2.1.0'
         rxJavaVersion = '2.2.2'
         rxKotlinVersion = '2.2.0'
+        navigationVersion = '2.2.1'
+        pagingVersion = '2.1.0'
     }
     repositories {
         google()
@@ -19,6 +21,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

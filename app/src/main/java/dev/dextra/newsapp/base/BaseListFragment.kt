@@ -7,7 +7,7 @@ import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.Window
-import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import dev.dextra.newsapp.R
 import kotlinx.android.synthetic.main.empty_state.*
@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.empty_state.view.*
 import kotlinx.android.synthetic.main.error_state.*
 import kotlinx.android.synthetic.main.error_state.view.*
 
-abstract class BaseListActivity : AppCompatActivity() {
+abstract class BaseListFragment : Fragment() {
 
     abstract val emptyStateTitle: Int
     abstract val emptyStateSubTitle: Int
@@ -23,8 +23,8 @@ abstract class BaseListActivity : AppCompatActivity() {
     abstract val errorStateSubTitle: Int
     abstract val mainList: View
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
         setupEmptyState(emptyStateTitle, emptyStateSubTitle)
         setupErrorState(errorStateTitle, errorStateSubTitle)
@@ -55,7 +55,7 @@ abstract class BaseListActivity : AppCompatActivity() {
     }
 
     private fun initDialog() {
-        loadingDialog = Dialog(this)
+        loadingDialog = Dialog(requireContext())
         loadingDialog?.apply {
             requestWindowFeature(Window.FEATURE_NO_TITLE)
             setCancelable(false)
@@ -113,11 +113,6 @@ abstract class BaseListActivity : AppCompatActivity() {
 
     fun hide(view: View) {
         view.visibility = GONE
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
     }
 
     protected abstract fun setupLandscape()
