@@ -1,37 +1,37 @@
 package dev.dextra.newsapp.feature.news
 
-import addListValues
-import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.Transformations
+import androidx.paging.LivePagedListBuilder
+import androidx.paging.PagedList
 import dev.dextra.newsapp.api.model.Article
 import dev.dextra.newsapp.api.model.Source
 import dev.dextra.newsapp.api.repository.NewsRepository
 import dev.dextra.newsapp.base.BaseViewModel
 import dev.dextra.newsapp.base.NetworkState
 
+private const val PAGE_SIZE = 20
 
 class NewsViewModel(private val newsRepository: NewsRepository) : BaseViewModel() {
 
-    val articles = MutableLiveData<ArrayList<Article>>()
-    val networkState = MutableLiveData<NetworkState>()
+    private lateinit var dataSource: LiveData<NewsDataSource>
+    lateinit var articles: LiveData<PagedList<Article>>
+    lateinit var networkState: LiveData<NetworkState>
 
-    private var selectedSource: Source? = null
-    private var retryPage: Int? = null
+    fun loadNews(source: Source) {
+        val config = PagedList.Config.Builder()
+            .setPageSize(PAGE_SIZE)
+            .setEnablePlaceholders(false)
+            .setInitialLoadSizeHint(2 * PAGE_SIZE)
+            .build()
+        val factory = NewsDataSourceFactory(source, newsRepository, ::addDisposable)
 
-    fun configureSource(source: Source) {
-        this.selectedSource = source
+        dataSource = factory.dataSource
+        articles = LivePagedListBuilder<Int, Article>(factory, config).build()
+        networkState = Transformations.switchMap(factory.dataSource, NewsDataSource::networkState)
     }
 
-    fun loadNews(page: Int = retryPage ?: 1) {
-        networkState.postValue(NetworkState.RUNNING)
-        retryPage = null
-        addDisposable(
-            newsRepository.getEverything(selectedSource!!.id, page).subscribe({ response ->
-                articles.addListValues(response.articles)
-                networkState.postValue(NetworkState.SUCCESS)
-            }, {
-                retryPage = page
-                networkState.postValue(NetworkState.ERROR)
-            })
-        )
+    fun retryLoad() {
+        dataSource.value?.retry()
     }
 }

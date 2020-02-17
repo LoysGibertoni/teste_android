@@ -9,16 +9,12 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import dev.dextra.newsapp.R
 import dev.dextra.newsapp.api.model.Article
-import dev.dextra.newsapp.api.model.Source
 import dev.dextra.newsapp.base.BaseListFragment
-import dev.dextra.newsapp.components.LoadPageScrollListener
 import dev.dextra.newsapp.feature.news.adapter.ArticleListAdapter
 import kotlinx.android.synthetic.main.fragment_news.*
 import org.koin.android.viewmodel.ext.android.viewModel
-
 
 class NewsFragment : BaseListFragment(), ArticleListAdapter.ArticleListAdapterItemListener {
 
@@ -35,6 +31,11 @@ class NewsFragment : BaseListFragment(), ArticleListAdapter.ArticleListAdapterIt
 
     val args by navArgs<NewsFragmentArgs>()
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        newsViewModel.loadNews(args.source)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -47,43 +48,26 @@ class NewsFragment : BaseListFragment(), ArticleListAdapter.ArticleListAdapterIt
         super.onViewCreated(view, savedInstanceState)
 
         setupList()
-        setupObservers(args.source)
+        setupObservers()
     }
 
     private fun setupList() {
-        news_list.apply {
-            adapter = viewAdapter
-            addOnScrollListener(LoadPageScrollListener(object : LoadPageScrollListener.LoadPageScrollLoadMoreListener {
-                override fun onLoadMore(
-                    currentPage: Int,
-                    totalItemCount: Int,
-                    recyclerView: RecyclerView
-                ) {
-                    newsViewModel.loadNews(currentPage)
-                }
-            }))
-        }
+        news_list.adapter = viewAdapter
     }
 
-    private fun setupObservers(source: Source) {
+    private fun setupObservers() {
         newsViewModel.articles.observe(this, Observer {
-            viewAdapter.apply {
-                val count = itemCount
-                set(it)
-                notifyItemRangeInserted(itemCount, it.size - count)
-            }
+            viewAdapter.submitList(it)
         })
 
         newsViewModel.networkState.observe(this, networkStateObserver)
-
-        newsViewModel.configureSource(source)
-        newsViewModel.loadNews()
     }
 
     override fun onClick(article: Article) {
-        val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse(article.url)
-        startActivity(i)
+        Intent(Intent.ACTION_VIEW).apply {
+            data = Uri.parse(article.url)
+            startActivity(this)
+        }
     }
 
     override fun setupLandscape() {
@@ -103,6 +87,6 @@ class NewsFragment : BaseListFragment(), ArticleListAdapter.ArticleListAdapterIt
     }
 
     override fun executeRetry() {
-        newsViewModel.loadNews()
+        newsViewModel.retryLoad()
     }
 }

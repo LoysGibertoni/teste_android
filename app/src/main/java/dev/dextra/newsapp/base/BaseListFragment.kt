@@ -93,8 +93,8 @@ abstract class BaseListFragment : Fragment() {
                 show(mainList)
             }
             NetworkState.EMPTY -> {
-                hide(empty_state)
-                show(error_state)
+                show(empty_state)
+                hide(error_state)
                 hide(mainList)
             }
             NetworkState.ERROR -> {

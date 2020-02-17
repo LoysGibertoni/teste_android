@@ -3,6 +3,8 @@ package dev.dextra.newsapp.feature.news.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.paging.PagedListAdapter
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import dev.dextra.newsapp.R
 import dev.dextra.newsapp.api.model.Article
@@ -12,12 +14,10 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 class ArticleListAdapter(val listener: ArticleListAdapterItemListener) :
-    RecyclerView.Adapter<ArticleListAdapter.ArticleListAdapterViewHolder>() {
+    PagedListAdapter<Article, ArticleListAdapter.ArticleListAdapterViewHolder>(ArticleDiffCallback) {
 
     private val dateFormat = SimpleDateFormat.getDateTimeInstance(DateFormat.DEFAULT, DateFormat.SHORT)
     private val parseFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.getDefault())
-
-    private var dataset: ArrayList<Article> = arrayListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleListAdapterViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -25,10 +25,8 @@ class ArticleListAdapter(val listener: ArticleListAdapterItemListener) :
         return ArticleListAdapterViewHolder(view)
     }
 
-    override fun getItemCount(): Int = dataset.size
-
     override fun onBindViewHolder(holder: ArticleListAdapterViewHolder, position: Int) {
-        val article = dataset[position]
+        val article = getItem(position)!!
 
         holder.view.setOnClickListener { listener.onClick(article) }
 
@@ -38,9 +36,16 @@ class ArticleListAdapter(val listener: ArticleListAdapterItemListener) :
         holder.view.article_date.text = dateFormat.format(parseFormat.parse(article.publishedAt)!!)
     }
 
-    fun set(articles: List<Article>) {
-        dataset.clear()
-        dataset.addAll(articles)
+    companion object {
+        val ArticleDiffCallback = object : DiffUtil.ItemCallback<Article>() {
+            override fun areItemsTheSame(oldItem: Article, newItem: Article): Boolean {
+                return oldItem.url == newItem.url
+            }
+
+            override fun areContentsTheSame(oldItem: Article, newItem: Article): Boolean {
+                return oldItem == newItem
+            }
+        }
     }
 
     class ArticleListAdapterViewHolder(val view: View) : RecyclerView.ViewHolder(view)
