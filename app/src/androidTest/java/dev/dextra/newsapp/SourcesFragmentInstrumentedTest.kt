@@ -1,17 +1,15 @@
 package dev.dextra.newsapp
 
+import androidx.fragment.app.testing.launchFragmentInContainer
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
 import androidx.test.espresso.Espresso.onData
 import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
-import androidx.test.espresso.intent.Intents
 import androidx.test.espresso.matcher.RootMatchers
-import androidx.test.espresso.matcher.ViewMatchers
-import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
-import androidx.test.espresso.matcher.ViewMatchers.withId
+import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import androidx.test.rule.ActivityTestRule
 import dev.dextra.newsapp.api.model.Source
 import dev.dextra.newsapp.api.model.SourceResponse
 import dev.dextra.newsapp.api.model.enums.Category
@@ -20,31 +18,32 @@ import dev.dextra.newsapp.base.BaseInstrumentedTest
 import dev.dextra.newsapp.base.FileUtils
 import dev.dextra.newsapp.base.TestSuite
 import dev.dextra.newsapp.base.mock.endpoint.ResponseHandler
-import dev.dextra.newsapp.feature.MainActivity
+import dev.dextra.newsapp.feature.sources.SourcesFragment
+import dev.dextra.newsapp.feature.sources.SourcesFragmentDirections
 import dev.dextra.newsapp.utils.JsonUtils
 import okhttp3.Request
 import org.hamcrest.CoreMatchers.equalTo
 import org.hamcrest.CoreMatchers.not
-import org.junit.After
 import org.junit.Before
-import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.mockito.Mockito.mock
+import org.mockito.Mockito.verify
 
 @RunWith(AndroidJUnit4::class)
-class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
+class SourcesFragmentInstrumentedTest : BaseInstrumentedTest() {
+
+    private val navController: NavController = mock(NavController::class.java)
 
     val emptyResponse = SourceResponse(ArrayList(), "ok")
     val brazilResponse = SourceResponse(listOf(Source("cat", "BR", "Test Brazil Description", "1234", "PT", "Test Brazil", "http://www.google.com.br")), "ok")
 
-    @get:Rule
-    val activityRule = ActivityTestRule(MainActivity::class.java, false, false)
-
     @Before
     fun setupTest() {
-        //we need to lauch the activity here so the MockedEndpointService is set
-        activityRule.launchActivity(null)
-        Intents.init()
+        val scenario = launchFragmentInContainer<SourcesFragment>(themeResId = R.style.AppTheme)
+        scenario.onFragment { fragment ->
+            Navigation.setViewNavController(fragment.requireView(), navController)
+        }
     }
 
     @Test
@@ -76,7 +75,7 @@ class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
         waitLoading()
 
         //select Brazil in the country list
-        onView(withId(R.id.country_select)).perform(ViewActions.click())
+        onView(withId(R.id.country_select)).perform(click())
         onData(equalTo(Country.BR)).inRoot(RootMatchers.isPlatformPopup()).perform(click())
 
         waitLoading()
@@ -85,10 +84,10 @@ class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
         onView(withId(R.id.sources_list)).check(matches(isDisplayed()))
         onView(withId(R.id.error_state)).check(matches(not(isDisplayed())))
         onView(withId(R.id.empty_state)).check(matches(not(isDisplayed())))
-        onView(ViewMatchers.withChild(ViewMatchers.withText("Test Brazil"))).check(matches(isDisplayed()))
+        onView(withChild(withText("Test Brazil"))).check(matches(isDisplayed()))
 
         //select United States in the country list
-        onView(withId(R.id.country_select)).perform(ViewActions.click())
+        onView(withId(R.id.country_select)).perform(click())
         onData(equalTo(Country.US)).inRoot(RootMatchers.isPlatformPopup()).perform(click())
 
         waitLoading()
@@ -99,7 +98,7 @@ class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
         onView(withId(R.id.sources_list)).check(matches(not(isDisplayed())))
 
         //select Canada in the country list
-        onView(withId(R.id.country_select)).perform(ViewActions.click())
+        onView(withId(R.id.country_select)).perform(click())
         onData(equalTo(Country.CA)).inRoot(RootMatchers.isPlatformPopup()).perform(click())
 
         waitLoading()
@@ -113,7 +112,7 @@ class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
         TestSuite.clearEndpointMocks()
 
         //retry in the error state
-        onView(withId(R.id.error_state_retry)).perform(ViewActions.click())
+        onView(withId(R.id.error_state_retry)).perform(click())
 
         waitLoading()
 
@@ -139,7 +138,7 @@ class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
         waitLoading()
 
         //select the Business category
-        onView(withId(R.id.category_select)).perform(ViewActions.click())
+        onView(withId(R.id.category_select)).perform(click())
         onData(equalTo(Category.BUSINESS)).inRoot(RootMatchers.isPlatformPopup()).perform(click())
 
         waitLoading()
@@ -148,14 +147,32 @@ class SourcesActivityInstrumentedTest : BaseInstrumentedTest() {
         onView(withId(R.id.sources_list)).check(matches(isDisplayed()))
         onView(withId(R.id.error_state)).check(matches(not(isDisplayed())))
         onView(withId(R.id.empty_state)).check(matches(not(isDisplayed())))
-        onView(ViewMatchers.withChild(ViewMatchers.withText("Test Brazil"))).check(matches(isDisplayed()))
-
+        onView(withChild(withText("Test Brazil"))).check(matches(isDisplayed()))
     }
 
+    @Test
+    fun testSelectSource() {
+        TestSuite.mock(TestConstants.sourcesURL).body(object : ResponseHandler {
+            override fun getResponse(request: Request, path: String): String {
+                return JsonUtils.toJson(brazilResponse)
+            }
+        }).apply()
 
-    @After
-    fun clearTest() {
-        Intents.release()
+        // this will be the selected source
+        val source = brazilResponse.sources[0]
+
+        waitLoading()
+
+        //select the Business category
+        onView(withId(R.id.category_select)).perform(click())
+        onData(equalTo(Category.BUSINESS)).inRoot(RootMatchers.isPlatformPopup()).perform(click())
+
+        // select the source
+        onView(withText(source.name)).perform(click())
+
+        waitLoading()
+
+        // check that navigate method was called
+        verify(navController).navigate(SourcesFragmentDirections.navigateToNews(source))
     }
-
 }
