@@ -39,7 +39,7 @@ class NewsViewModelTest : BaseTest() {
     fun testGetNews() {
         viewModel.loadNews(source)
 
-        assert(viewModel.articles.getOrAwaitValue().size == 11)
+        assert(viewModel.articles.getOrAwaitValue().size == 100)
         assertEquals(NetworkState.SUCCESS, viewModel.networkState.getOrAwaitValue())
 
         viewModel.onCleared()
@@ -65,5 +65,21 @@ class NewsViewModelTest : BaseTest() {
 
         assert(viewModel.articles.getOrAwaitValue().isEmpty())
         assertEquals(NetworkState.ERROR, viewModel.networkState.getOrAwaitValue())
+    }
+
+    @Test
+    fun testRetryGetNews() {
+        TestSuite.mock(TestConstants.newsURL).throwConnectionError().apply()
+
+        viewModel.loadNews(source)
+
+        assert(viewModel.articles.getOrAwaitValue().isEmpty())
+        assertEquals(NetworkState.ERROR, viewModel.networkState.getOrAwaitValue())
+
+        TestSuite.clearEndpointMocks()
+        viewModel.retryLoad()
+
+        assert(viewModel.articles.getOrAwaitValue().size == 100)
+        assertEquals(NetworkState.SUCCESS, viewModel.networkState.getOrAwaitValue())
     }
 }

@@ -1,32 +1,19 @@
 {
   "status": "ok",
-  "totalResults": 11,
+  "totalResults": 100,
   "articles": [
     {
       "source": {
         "id": "abc-news",
         "name": "ABC News"
       },
-      "author": "The Associated Press",
-      "title": "Texas to soon remove hemp from controlled substance list",
-      "description": "Get breaking national and world news, broadcast video coverage, and exclusive interviews.  Find the top news online at ABC news.",
-      "url": "https://abcnews.go.com/US/wireStory/texas-remove-hemp-controlled-substance-list-62093347",
-      "urlToImage": null,
-      "publishedAt": "2019-04-01T16:45:42Z",
-      "content": "Texas is planning to eliminate hemp from its list of controlled substances.\r\nThe Dallas Morning News reports that the Texas Department of State Health Services will on Friday remove hemp from a list of Schedule I drugs that can be abused and have no authorize… [+601 chars]"
-    },
-    {
-      "source": {
-        "id": "abc-news",
-        "name": "ABC News"
-      },
-      "author": "By RYAN J. FOLEY Associated Press",
-      "title": "Agency suspends Iowa prison guard over positive news article",
-      "description": "The Iowa Department of Corrections has suspended a prison guard for giving an interview to his hometown newspaper for a positive feature story about his life and work",
-      "url": "https://abcnews.go.com/US/wireStory/agency-suspends-iowa-prison-guard-positive-news-article-62093289",
-      "urlToImage": null,
-      "publishedAt": "2019-04-01T16:42:41Z",
-      "content": "The department that runs Iowa's prison system has suspended a guard for giving an interview to his small hometown newspaper for a positive story about his life and work helping inmates.\r\nThe guard is fighting the discipline, calling it a violation of his free… [+4247 chars]"
+      "author": "JOSEPH PISANI AP Retail Writer",
+      "title": "Jeff Bezos commits $10 billion to fight climate change",
+      "description": "Amazon founder Jeff Bezos says he plans to spend $10 billion of his own fortune to help fight climate change",
+      "url": "https://abcnews.go.com/Business/wireStory/jeff-bezos-commits-10-billion-fight-climate-change-69034773",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T19:47:17Z",
+      "content": "NEW YORK -- \r\nAmazon founder Jeff Bezos said Monday that he plans to spend $10 billion of his own fortune to help fight climate change.\r\nBezos, the worlds richest man, said in an Instagram post that he'll start giving grants this summer to scientists, activis… [+1357 chars]"
     },
     {
       "source": {
@@ -34,38 +21,116 @@
         "name": "ABC News"
       },
       "author": "The Associated Press",
-      "title": "Kaine downplays chances of abolishing Electoral College",
-      "description": "U.S. Sen. Tim Kaine has endured the pain of winning the popular vote but losing the Electoral College, which denied him the vice presidency",
-      "url": "https://abcnews.go.com/US/wireStory/kaine-downplays-chances-abolishing-electoral-college-62093006",
-      "urlToImage": null,
-      "publishedAt": "2019-04-01T16:40:25Z",
-      "content": "U.S. Sen. Tim Kaine has endured the pain of winning the popular vote but losing the Electoral College, which denied him the vice presidency.\r\nBut the Virginia Democrat on Monday downplayed the prospects of abolishing the Electoral College.\r\nSpeaking at the Un… [+581 chars]"
+      "title": "North Macedonia: Thousands rally to back judicial reforms",
+      "description": "Thousands of people have attended a march in North Macedonia's capital in support of landmark judicial reforms approved just before parliament was dissolved for elections",
+      "url": "https://abcnews.go.com/International/wireStory/north-macedonia-thousands-rally-back-judicial-reforms-69034772",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_ff5885edad624a1ab012665bc9414111_16x9_992.jpg",
+      "publishedAt": "2020-02-17T19:47:09Z",
+      "content": "SKOPJE, North Macedonia -- \r\nThousands of people attended a march in North Macedonia's capital Monday in support of landmark judicial reforms approved just before parliament was dissolved for early elections. \r\nThe \"Walk for Justice\" rally, held in Skopje a d… [+803 chars]"
     },
     {
       "source": {
         "id": "abc-news",
         "name": "ABC News"
       },
-      "author": "By JOHN FLESHER AP Environmental Writer",
-      "title": "Judge orders closer look at Great Lakes oil spill plans",
-      "description": "A federal judge has ordered a government agency to take a closer look at pipeline company Enbridge's plans for dealing with a potential oil spill in the waterway connecting Lakes Huron and Michigan",
-      "url": "https://abcnews.go.com/International/wireStory/judge-orders-closer-great-lakes-oil-spill-plans-62093233",
-      "urlToImage": null,
-      "publishedAt": "2019-04-01T16:39:26Z",
-      "content": "A federal judge has ordered a government agency to take a closer look at pipeline company Enbridge's plans for dealing with a potential oil spill in the waterway connecting Lakes Huron and Michigan.\r\nThe Pipeline and Hazardous Materials Safety Administration … [+604 chars]"
+      "author": "BRIAN MELLEY Associated Press",
+      "title": "Eccentric millionaire Durst faces trial in friend's killing",
+      "description": "New York real estate heir Robert Durst faces trial in the slaying of his best friend 20 years ago",
+      "url": "https://abcnews.go.com/US/wireStory/eccentric-millionaire-durst-faces-trial-friends-killing-69033888",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T19:01:03Z",
+      "content": "LOS ANGELES -- \r\nThere is almost no physical evidence connecting New York real estate heir Robert Durst to the slaying of his best friend in Los Angeles 20 years ago. \r\nWhat does link him to the killing of Susan Berman, though, is a cryptic note sent to polic… [+5534 chars]"
     },
     {
       "source": {
         "id": "abc-news",
         "name": "ABC News"
       },
-      "author": "By JEFFREY COLLINS Associated Press",
-      "title": "Father vows safety push after daughter's ride sharing death",
-      "description": "The father of a University of South Carolina student killed when police say she got into the wrong car thinking it was her Uber ride says he will dedicate his life to increasing safety with ride sharing services",
-      "url": "https://abcnews.go.com/US/wireStory/father-vows-safety-push-daughters-ride-sharing-death-62093231",
-      "urlToImage": "https://s.abcnews.com/images/US/WireAP_ff6781b2f8864cad845416eab284175e_16x9_992.jpg",
-      "publishedAt": "2019-04-01T16:37:13Z",
-      "content": "The father of a University of South Carolina student killed when police say she got into the wrong car thinking it was her Uber ride says he will dedicate his life to increasing safety with ride sharing services.\r\nSeymour Josephson says he thinks his 21-year-… [+490 chars]"
+      "author": null,
+      "title": "Former UAW President Owen Bieber dies aged 90",
+      "description": "Owen Bieber, who led the United Auto Workers union from the auto industry's dark days of the early 1980s to the prosperity of the mid-1990s, has died",
+      "url": "https://abcnews.go.com/Business/wireStory/uaw-president-owen-bieber-dies-aged-90-69033713",
+      "urlToImage": null,
+      "publishedAt": "2020-02-17T18:53:32Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": null,
+      "title": "UK to EU: we won't accept supervision in post-Brexit deal",
+      "description": "Britain has set out on a clashing course for trade talks with the European Union, saying the 27-nation bloc has totally missed the point of Brexit if it thinks it will retain some supervision over U.K. actions",
+      "url": "https://abcnews.go.com/International/wireStory/uk-eu-accept-supervision-post-brexit-deal-69033445",
+      "urlToImage": null,
+      "publishedAt": "2020-02-17T18:47:17Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JAMES ANDERSON Associated Press",
+      "title": "Tech-starved government seeks industry's best, brightest",
+      "description": "Uncle Sam Wants You, techies: A SWAT team of geeks called the U.S. Digital Service wants talented coders, programmers and software engineers to serve paid Peace Corps-style tours of duty in Washington",
+      "url": "https://abcnews.go.com/Business/wireStory/tech-starved-government-seeks-industrys-best-brightest-69033299",
+      "urlToImage": "https://s.abcnews.com/images/Politics/WireAP_016b1387421443e193cc4fbe98d667ad_16x9_992.jpg",
+      "publishedAt": "2020-02-17T18:37:53Z",
+      "content": "Denver -- \r\nIn this post-impeachment era of divisiveness and deadlock in the nations capital, Uncle Sam has a message for top U.S. technologists: \r\nI Still Want You.\r\nA Washington-based nerd strike force called the U.S. Digital Service is seeking private-sect… [+6166 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Jacqueline Logan",
+      "title": "NASCAR Cup Series Drivers Ryan Blaney and Bubba Wallace Trade In Their Race Cars to Pilot the Millennium Falcon at Star Wars: Galaxy’s Edge",
+      "description": "Racing fans everywhere are gearing up to watch the final laps of the 62nd annual DAYTONA 500 later today. Ahead of the big race, NASCAR Cup Series drivers Ryan Blaney and Bubba Wallace high-tailed it over to Walt Disney World from the speedway to experience S…",
+      "url": "https://disneyparks.disney.go.com/blog/2020/02/nascar-cup-series-drivers-ryan-blaney-and-bubba-wallace-trade-in-their-race-cars-to-pilot-the-millennium-falcon-at-star-wars-galaxys-edge/",
+      "urlToImage": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/02/ndf2039480293849374529348.jpg",
+      "publishedAt": "2020-02-17T18:29:26Z",
+      "content": "Racing fans everywhere are gearing up to watch the final laps of the 62nd annual DAYTONA 500 later today. Ahead of the big race, NASCAR Cup Series drivers Ryan Blaney and Bubba Wallace high-tailed it over to Walt Disney World from the speedway to experience S… [+543 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Laurel Slater",
+      "title": "#DisneyCastLife: First Impressions of Mickey & Minnie’s Runaway Railway",
+      "description": "All aboard! Our #DisneyCastLife series continues as the opening team cast members take their first journey aboard Runnamuck Railroad. Experiencing a brand-new attraction that takes you off the rails and into the world of Mickey and Minnie where mouse rules ap…",
+      "url": "https://disneyparks.disney.go.com/blog/2020/02/disneycastlife-first-impressions-of-mickey-minnies-runaway-railway/",
+      "urlToImage": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/02/mmr02948023498294820394fi.jpg",
+      "publishedAt": "2020-02-17T18:24:49Z",
+      "content": "All aboard! Our #DisneyCastLife series continues as the opening team cast members take their first journey aboard Runnamuck Railroad. Experiencing a brand-new attraction that takes you off the rails and into the world of Mickey and Minnie where mouse rules ap… [+644 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Thomas Smith",
+      "title": "Basketball Fans Enjoy Exclusive Disneyland Paris Leaders Cup Tournament",
+      "description": "This weekend, the eighth annual edition of the Disneyland Paris Leaders Cup with France’s national basketball league brought together the top eight teams from the Jeep ELITE French Championship for a tournament which offered fans and basketball lovers the cha…",
+      "url": "https://disneyparks.disney.go.com/blog/2020/02/basketball-fans-enjoy-exclusive-disneyland-paris-leaders-cup-tournament/",
+      "urlToImage": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/02/dlpb0239802984593485039485fi.jpg",
+      "publishedAt": "2020-02-17T18:07:08Z",
+      "content": "This weekend, the eighth annual edition of the Disneyland Paris Leaders Cup with Frances national basketball league brought together the top eight teams from the Jeep ELITE French Championship for a tournament which offered fans and basketball lovers the chan… [+979 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": null,
+      "title": "Study: Cyprus peace deal would see economy, incomes grow",
+      "description": "A World Bank and U.N.-funded report says a deal reunifying ethnically divided Cyprus would mean more money in the pockets of the island nation's citizens, stronger economic growth and hundreds of millions of euros in investment within a few years",
+      "url": "https://abcnews.go.com/International/wireStory/study-cyprus-peace-deal-economy-incomes-grow-69032801",
+      "urlToImage": null,
+      "publishedAt": "2020-02-17T18:05:46Z",
+      "content": null
     },
     {
       "source": {
@@ -73,12 +138,12 @@
         "name": "ABC News"
       },
       "author": "The Associated Press",
-      "title": "Algeria's president says he will step down before April 28",
-      "description": "Get breaking national and world news, broadcast video coverage, and exclusive interviews.  Find the top news online at ABC news.",
-      "url": "https://abcnews.go.com/International/wireStory/algerias-president-step-april-28-62093164",
-      "urlToImage": "https://s.abcnews.com/images/International/WireAP_c3c4c4a9d9d7458490d2bac546d2087a_16x9_992.jpg",
-      "publishedAt": "2019-04-01T16:35:45Z",
-      "content": "Embattled Algerian President Abdelaziz Bouteflika says he will step down before his fourth term ends on April 28.\r\nIn a short statement issue on Monday, the president's office said Bouteflika would take \"important steps to ensure the continuity of the functio… [+477 chars]"
+      "title": "Killing of 7-year-old girl stokes anger in Mexico",
+      "description": "The killing of a 7-year-old girl on the southern outskirts of Mexico City has stoked rising anger over brutal slayings of women, including one found stabbed to death and skinned earlier this month",
+      "url": "https://abcnews.go.com/International/wireStory/killing-year-girl-stokes-anger-mexico-69032686",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T18:01:04Z",
+      "content": "MEXICO CITY -- \r\nThe killing of a 7-year-old girl on the southern outskirts of Mexico City has stoked rising anger over brutal slayings of women, including one found stabbed to death and skinned earlier this month. \r\nThe city prosecutor's office said Monday t… [+1984 chars]"
     },
     {
       "source": {
@@ -86,12 +151,311 @@
         "name": "ABC News"
       },
       "author": "The Associated Press",
-      "title": "The Latest: 1 student shot at Arkansas school",
-      "description": "Get breaking national and world news, broadcast video coverage, and exclusive interviews.  Find the top news online at ABC news.",
-      "url": "https://abcnews.go.com/US/wireStory/latest-student-shot-arkansas-school-62093049",
+      "title": "Over 1 billion euros pledged for Albania quake rebuilding",
+      "description": "International donors have committed over a billlion euros in relief for Albania in the wake of last year's earthquake",
+      "url": "https://abcnews.go.com/International/wireStory/billion-euros-pledged-albania-quake-rebuilding-69032683",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_50db24fda2a24ae3826356cf37bae654_16x9_992.jpg",
+      "publishedAt": "2020-02-17T18:00:23Z",
+      "content": "BRUSSELS -- \r\nInternational donors have committed over a billlion euros in relief for Albania in the wake of last year's earthquake. \r\nThe European Union led the pledging of aid at a special conference gathering funds to rebuild anything from homes and busine… [+558 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "DEE-ANN DURBIN AP Business Writer",
+      "title": "Pier 1 files for bankruptcy protection amid online challenge",
+      "description": "Home goods retailer Pier 1 Imports Inc. is filing for bankruptcy protection",
+      "url": "https://abcnews.go.com/Business/wireStory/pier-files-bankruptcy-protection-amid-online-challenge-69032394",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T17:37:32Z",
+      "content": "Home goods retailer Pier 1 Imports Inc. said Monday that it has filed for bankruptcy protection.\r\nThe Fort Worth, Texas-based company, which was founded in 1962, has been struggling with increased competition from online retailers such as Wayfair. Pier 1 said… [+589 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "US House speaker Pelosi warns allies against using Huawei",
+      "description": "U.S. House Speaker Nancy Pelosi is pleading with NATO allies to stay away from the next-generation cellular networks of the Chinese tech giant Huawei",
+      "url": "https://abcnews.go.com/International/wireStory/us-house-speaker-pelosi-warns-allies-huawei-69032393",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_cb4096c4af644d979328209d219c7c73_16x9_992.jpg",
+      "publishedAt": "2020-02-17T17:37:12Z",
+      "content": "BRUSSELS -- \r\nNo NATO ally should succumb to the temptation of letting Chinese tech giant Huawei into their next-generation cellular networks, U.S. House Speaker Nancy Pelosi said Monday at Allied headquarters, turning U.S. opposition to Huawei into a biparti… [+1752 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Protester chains himself to Russian security agency's doors",
+      "description": "A Russian activist has chained himself to the front doors of the nation's top security agency to protest its handling of a controversial criminal case",
+      "url": "https://abcnews.go.com/International/wireStory/protester-chains-russian-security-agencys-doors-69032293",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T17:33:17Z",
+      "content": "MOSCOW -- \r\nA Russian activist was detained Monday after he chained himself to the front doors of the nation's top security agency to protest its handling of a controversial criminal case.\r\nLast week, a Russian court convicted seven members of the left-wing y… [+958 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Luke Barr",
+      "title": "More than 1,100 former DOJ officials call on William Barr to resign",
+      "description": "More than 1,100 former DOJ officials have called on Attorney General William Barr to resign for his interference in criminal cases.",
+      "url": "https://abcnews.go.com/Politics/1100-doj-officials-call-william-barr-resign/story?id=69030388",
+      "urlToImage": "https://s.abcnews.com/images/US/william-barr-interview-05-abc-jc-200213_hpMain_16x9_992.jpg",
+      "publishedAt": "2020-02-17T17:31:06Z",
+      "content": "More than 1,100 former DOJ officials are calling on Attorney General William Barr to resign, according to the group Protect Democracy.\r\n\"Political interference in the conduct of a criminal prosecution is anathema to the Departments core mission and to its sac… [+3074 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Spokesman: Texas refinery fire under control, no injuries",
+      "description": "A city spokesman says a fire at a Citgo refinery in Corpus Christi, Texas, is under control and air-quality monitoring suggests it is safe for residents to leave their homes",
+      "url": "https://abcnews.go.com/US/wireStory/spokesman-texas-refinery-fire-control-injuries-69032291",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T17:28:17Z",
+      "content": "CORPUS CHRISTI, Texas -- \r\nA fire that started Monday morning at a Citgo refinery in a South Texas city is under control and air-quality monitoring suggests it is safe for residents to leave their homes, a city official said.\r\nThe fire started when a line tha… [+662 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "HERBERT MOYO Associated Press",
+      "title": "Lesotho's drought makes 500,000 people hungry, UN says",
+      "description": "The United Nations says an estimated 500,000 people are threatened with hunger in Lesotho",
+      "url": "https://abcnews.go.com/International/wireStory/lesothos-drought-makes-500000-people-hungry-69032167",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T17:17:47Z",
+      "content": "MASERU, Lesotho -- \r\nAn estimated 500,000 people are threatened with hunger in Lesotho, a quarter of the mountain kingdom's population, according to the United Nations, which is appealing to the international community for help.\r\nA drought last year and patch… [+1366 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Anthony Armenia",
+      "title": "‘Onward’ Merchandise Available Now at Disney Parks Around the World, shopDisney.com | Disney Store & Global Retailers",
+      "description": "On March 6, Disney and Pixar’s latest adventure, “Onward” will hit theaters and take Guests into a suburban fantasy world introducing two teenage elf brothers who embark on an extraordinary quest to discover if there is still a little magic left out there.",
+      "url": "https://disneyparks.disney.go.com/blog/2020/02/onward-merchandise-available-now-at-disney-parks-around-the-world-shopdisney-com-disney-store-global-retailers/",
+      "urlToImage": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/02/dlksgljdsfi.jpg",
+      "publishedAt": "2020-02-17T17:15:22Z",
+      "content": "On March 6, Disney and Pixars latest adventure, Onward will hit theaters and take Guests into a suburban fantasy world introducing two teenage elf brothers who embark on an extraordinary quest to discover if there is still a little magic left out there. Begin… [+3196 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Jason Kirk",
+      "title": "Cinderella Castle at Walt Disney World Resort to Receive Royal Makeover",
+      "description": "It’s an exciting day here at The Most Magical Place on Earth — Walt Disney World! For those who I haven't met yet, my name is Jason—and I have the incredible honor of leading the team at Magic Kingdom Park, a place I hold very near and dear to my heart.",
+      "url": "https://disneyparks.disney.go.com/blog/2020/02/cinderella-castle-at-walt-disney-world-resort-to-receive-royal-makeover/",
+      "urlToImage": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/02/ytegfwty4yuti241.jpg",
+      "publishedAt": "2020-02-17T17:15:19Z",
+      "content": "Its an exciting day here at The Most Magical Place on Earth Walt Disney World! For those who I haven’t met yet, my name is Jasonand I have the incredible honor of leading the team at Magic Kingdom Park, a place I hold very near and dear to my heart.\r\nOne of m… [+1264 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "DAKE KANG Associated Press",
+      "title": "Leaked data shows China's Uighurs detained due to religion",
+      "description": "A newly revealed database out of China has exposed in extraordinary detail the detention of 311 individuals, most of them Muslims, offering the fullest view yet into how officials decided who goes in and out of detention camps",
+      "url": "https://abcnews.go.com/International/wireStory/leaked-data-shows-chinas-uighurs-detained-due-religion-69031836",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_276a8aa6044b4bf0b12dfbc1acdbd76e_16x9_992.jpg",
+      "publishedAt": "2020-02-17T17:00:33Z",
+      "content": "Beijing -- \r\nFor decades, the Uighur imam was a bedrock of his farming community in Chinas far west. On Fridays, he preached Islam as a religion of peace. On Sundays, he treated the sick with free herbal medicine. In the winter, he bought coal for the poor.\r\n… [+9901 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "DAKE KANG Associated Press",
+      "title": "Leaked data shows China's Uighurs detained due to religion",
+      "description": "A newly revealed database has exposed the detention of 311 individuals in extraordinary detail, offering the fullest view yet into how Chinese officials decided who to put into and let out of detention camps",
+      "url": "https://abcnews.go.com/International/wireStory/leaked-data-shows-chinas-uighurs-detained-due-religion-69031835",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_276a8aa6044b4bf0b12dfbc1acdbd76e_16x9_992.jpg",
+      "publishedAt": "2020-02-17T16:57:33Z",
+      "content": "BEIJING -- \r\nWhen a Chinese government mass detention campaign engulfed Memtimin Emer's native Xinjiang region three years ago, the elderly Uighur imam was swept up and locked away, along with three of his sons.\r\nNow, a leaked database exposes in extraordinar… [+6046 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JOHN HANNA AP Political Writer",
+      "title": "Elections chief's security plan causes local unease",
+      "description": "The top elections official in Kansas is pushing to make the state's central voter registration database more secure by changing how counties tap into it",
+      "url": "https://abcnews.go.com/Politics/wireStory/kansas-elections-chiefs-security-plan-local-unease-69031643",
+      "urlToImage": "https://s.abcnews.com/images/Politics/WireAP_1a80917f67a647abab3bbd20bef9fd91_16x9_992.jpg",
+      "publishedAt": "2020-02-17T16:53:02Z",
+      "content": "TOPEKA, Kan. -- \r\nKansas' elections chief is pushing to make the state's central voter registration database more secure by changing how counties tap into it, but some officials are nervous about what they see as a big project in a busy election year.\r\nSecret… [+4665 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JILL LAWLESS Associated Press",
+      "title": "UK's Johnson under pressure over adviser who linked IQ, race",
+      "description": "British Prime Minister Boris Johnson has come under pressure to fire an adviser who has linked intelligence to race and suggested contraception should be made compulsory to avoid “a permanent underclass",
+      "url": "https://abcnews.go.com/International/wireStory/uks-johnson-pressure-adviser-linked-iq-race-69031592",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_c663c3ef286d4703aefd6399ddda52c4_16x9_992.jpg",
+      "publishedAt": "2020-02-17T16:44:04Z",
+      "content": "LONDON -- \r\nBritish Prime Minister Boris Johnson was under pressure Monday to fire an adviser who has linked intelligence to race and suggested contraception should be made compulsory to avoid a permanent underclass.\r\nAndrew Sabisky was hired to work in the p… [+2457 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Professor suspended for calling police on black student",
+      "description": "An Indiana university says a white professor accused of discrimination after he called university police to his classroom because a black student refused to change seats won't teach for the remainder of the semester",
+      "url": "https://abcnews.go.com/US/wireStory/professor-suspended-calling-police-black-student-69031558",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T16:39:47Z",
+      "content": "MUNCIE, Ind. -- \r\nA white professor at an Indiana university who called police to his classroom after a black student refused to change seats will not be teaching for the remainder of the semester, the school said in a written statement.\r\nNo formal charges or… [+2899 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Catherine Thorbecke",
+      "title": "Macao casinos to reopen this week after being shuttered amid coronavirus outbreak",
+      "description": "Authorities are set to allow the casinos in Macao, the world's biggest gambling hub, to reopen on Thursday this week.",
+      "url": "https://abcnews.go.com/Business/macao-casinos-set-reopen-shuttered-amid-coronavirus-outbreak/story?id=69029495",
+      "urlToImage": "https://s.abcnews.com/images/Business/macau-casino-ap-jt-200217_hpMain_16x9_992.jpg",
+      "publishedAt": "2020-02-17T16:25:37Z",
+      "content": "Dozens of casinos in Macao, the world's biggest gambling hub, are expected to reopen on Thursday.\r\nLi Weinong, the secretary for economic affairs and finance in the Chinese territory, announced that the temporary government-mandated closure would be lifted on… [+1877 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Quinn Scanlan",
+      "title": "Abrams 'absolutely' wants to run for president, but says she'd accept VP slot in 2020",
+      "description": "Stacey Abrams, the former Georgia gubernatorial candidate who's now focusing on tackling voter suppression head on joined ABC's \"The View.\"",
+      "url": "https://abcnews.go.com/Politics/stacey-abrams-absolutely-run-president-day-shed-accept/story?id=68891036",
+      "urlToImage": "https://s.abcnews.com/images/Politics/0214161130-155032__JN33575_hpMain_16x9_992.jpg",
+      "publishedAt": "2020-02-17T16:22:24Z",
+      "content": "Stacey Abrams, the former Georgia gubernatorial candidate who's now focusing on tackling voter suppression head on, said she \"absolutely\" sees herself running for president one day, but for the 2020 cycle, she \"would be honored\" to run for vice president with… [+5712 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Autopsies coming on mother, girls, apparent homicide victims",
+      "description": "Autopsies are planned on the bodies of a woman and her two young daughters that were found in a Milwaukee garage more than a week after they were reported missing",
+      "url": "https://abcnews.go.com/US/wireStory/autopsies-coming-mother-girls-apparent-homicide-victims-69031489",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T16:13:32Z",
+      "content": "MILWAUKEE -- \r\nAutopsies are planned Monday on the bodies of a woman and her two young daughters that were found in a Milwaukee garage more than a week after they were reported missing.\r\nThe bodies of 26-year-old Amarah Banks, 5-year-old Zaniya Ivery and 4-ye… [+1305 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "DUSAN STOJANOVIC Associated Press",
+      "title": "Russian defense minister visits Serbia amid Balkan tensions",
+      "description": "Russia’s defense minister says military cooperation with Serbia has reached a “fundamentally” new level as he visits his Balkan ally amid rising tensions in the volatile region",
+      "url": "https://abcnews.go.com/International/wireStory/russian-defense-minister-visits-serbia-amid-balkan-tensions-69031454",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_9cf048a0b9cd4c76899b5d187130bba7_16x9_992.jpg",
+      "publishedAt": "2020-02-17T16:02:54Z",
+      "content": "BELGRADE, Serbia -- \r\nRussian military cooperation with Serbia has reached a fundamentally new level, Russias defense minister said Monday as he visited his Balkan ally amid rising tensions in the volatile region. \r\nSergei Shoigu said in Belgrade on Monday: F… [+1774 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "EDWIN KINDZEKA MOKI Associated Press",
+      "title": "Latest Cameroon fighting kills at least 22, including kids",
+      "description": "Residents say small children were among at least 22 people killed in weekend fighting between separatists and the military in northwestern Cameroon",
+      "url": "https://abcnews.go.com/International/wireStory/latest-cameroon-fighting-kills-22-including-kids-69031250",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T15:55:02Z",
+      "content": "YAOUNDE, Cameroon -- \r\nSmall children were among at least 22 people killed in weekend fighting between separatists and the military in northwestern Cameroon, residents said.\r\nThe government acknowledged some of the deaths occurred when a fuel tank exploded in… [+2748 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Emily Shapiro",
+      "title": "Hollywood therapist killed at her home, ex-boyfriend arrested",
+      "description": "A Hollywood therapist once engaged to Drew Carey was killed this weekend -- and an ex-boyfriend has been arrested, police said.",
+      "url": "https://abcnews.go.com/US/therapist-amie-harwick-killed-hollywood-hills-home-boyfriend/story?id=68960962",
+      "urlToImage": "https://s.abcnews.com/images/US/harwick-1-gty-er-200217_hpMain_16x9_992.jpg",
+      "publishedAt": "2020-02-17T15:53:54Z",
+      "content": "A Hollywood therapist once engaged to actor Drew Carey was killed at her home this weekend -- and an ex-boyfriend has been arrested for the crime, police said.\r\nWhen officers in the Hollywood Hills responded to a radio call of a woman screaming around 1:15 a.… [+1420 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "SWAT team fatally shoots murder suspect after standoff",
+      "description": "A Florida SWAT team has fatally shot a murder suspect after a long standoff",
+      "url": "https://abcnews.go.com/US/wireStory/swat-team-fatally-shoots-murder-suspect-standoff-69031216",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T15:48:47Z",
+      "content": "POINCIANA, Florida -- \r\nA Florida SWAT team fatally shot a murder suspect early Monday after investigators say he pulled a gun on them after barricading himself inside a house.\r\nPolk County Sheriff Grady Judd said his SWAT team first shot Rudy Shorty Arenas, … [+1702 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "British DJ and producer Andrew Weatherall dies at 56",
+      "description": "British music producer and DJ Andrew Weatherall has died aged 56",
+      "url": "https://abcnews.go.com/Entertainment/wireStory/british-dj-producer-andrew-weatherall-dies-56-69031215",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T15:45:32Z",
+      "content": "LONDON -- \r\nBritish music producer and DJ Andrew Weatherall, who helped bring the underground sounds of acid house to a mass audience, has died. He was 56.\r\nWeatheralls management said in a statement that he died Monday in a London hospital from a pulmonary e… [+1050 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "DANICA KIRKA and JAN M. OLSEN Associated Press",
+      "title": "UK issues severe flood warnings; storm injures 9 in Germany",
+      "description": "Britain has issued two severe flood alerts, warning of life-threatening danger in central England after Storm Dennis roared through",
+      "url": "https://abcnews.go.com/International/wireStory/uk-issues-severe-flood-warnings-storm-injures-germany-69031214",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_2287aae3263e4a01819f73e670ac3275_16x9_992.jpg",
+      "publishedAt": "2020-02-17T15:43:59Z",
+      "content": "LONDON -- \r\nBritain issued severe flood alerts Monday, warning of life-threatening danger after Storm Dennis dumped weeks' worth of rain in some places. One woman swept away by the floodwaters was feared dead.\r\nTo the east, Dennis' gale-force winds also injur… [+4002 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": null,
+      "title": "Pompeo in Africa visit praises Angola's moves against graft",
+      "description": "U.S. Secretary of State Mike Pompeo in his latest Africa stop has praised Angola’s president for his actions against corruption, saying it would help attract investment",
+      "url": "https://abcnews.go.com/International/wireStory/pompeo-africa-visit-praises-angolas-moves-graft-69031114",
       "urlToImage": null,
-      "publishedAt": "2019-04-01T16:32:11Z",
-      "content": "The Latest on on a shooting at a school in southern Arkansas (all times local):\r\n11:30 a.m.\r\nAn Arkansas school district says a student has been taken into custody after bringing a concealed gun to school and shooting another student in what appears to be \"a … [+1216 chars]"
+      "publishedAt": "2020-02-17T15:42:20Z",
+      "content": null
     },
     {
       "source": {
@@ -99,25 +463,12 @@
         "name": "ABC News"
       },
       "author": "The Associated Press",
-      "title": "More rain causes new flood worries along the Mississippi",
-      "description": "A wall of rocks and sandbags is protecting scenic Clarksville, Missouri, from the surging Mississippi River as the spring flood closed roads, threatened homes and temporarily shut down a bridge connecting Missouri and Illinois",
-      "url": "https://abcnews.go.com/US/wireStory/rain-flood-worries-mississippi-62093048",
-      "urlToImage": "https://s.abcnews.com/images/US/WireAP_634f08c45f4b443ab42489652de638da_16x9_992.jpg",
-      "publishedAt": "2019-04-01T16:32:00Z",
-      "content": "A wall of rocks and sandbags is protecting scenic Clarksville, Missouri, from the surging Mississippi River as spring flooding swamps fields, threatens homes and temporarily shut down a bridge connecting Missouri and Illinois.\r\nHeavy rain over much of the Mid… [+767 chars]"
-    },
-    {
-      "source": {
-        "id": "abc-news",
-        "name": "ABC News"
-      },
-      "author": "By MARILYNN MARCHIONE AP Chief Medical Writer",
-      "title": "Federal study gives new options for people with rare cancers",
-      "description": "Get breaking national and world news, broadcast video coverage, and exclusive interviews.  Find the top news online at ABC news.",
-      "url": "https://abcnews.go.com/Health/wireStory/federal-study-options-people-rare-cancers-62092865",
-      "urlToImage": "https://s.abcnews.com/images/Health/WireAP_0c2978034d764f3b8cf2389cf3ee5319_16x9_992.jpg",
-      "publishedAt": "2019-04-01T16:28:42Z",
-      "content": "People with rare cancers have been out of luck not only do most lack good treatments but drug companies also don't pursue them because of small potential sales. Now, a federal study that pools these folks gives them strength in numbers and new options.\r\nThe f… [+3487 chars]"
+      "title": "Zuckerberg meets EU officials as bloc's new tech rules loom",
+      "description": "Facebook CEO Mark Zuckerberg has met top European Union officials on a visit to Brussels",
+      "url": "https://abcnews.go.com/Technology/wireStory/zuckerberg-meets-eu-officials-blocs-tech-rules-loom-69031014",
+      "urlToImage": "https://s.abcnews.com/images/Technology/WireAP_d0b94206f40940dc8caa95e3c51404aa_16x9_992.jpg",
+      "publishedAt": "2020-02-17T15:40:59Z",
+      "content": "LONDON -- \r\nFacebook CEO Mark Zuckerberg met top European Union officials on a visit to Brussels on Monday, days before the bloc is expected to release new proposals on regulating artificial intelligence.\r\nThe billionaire social network founder is the latest … [+1481 chars]"
     },
     {
       "source": {
@@ -125,12 +476,818 @@
         "name": "ABC News"
       },
       "author": "The Associated Press",
-      "title": "Algerian President Abdelaziz Bouteflika says he will step down by April 28 after two decades in office.",
-      "description": "Get breaking national and world news, broadcast video coverage, and exclusive interviews.  Find the top news online at ABC news.",
-      "url": "https://abcnews.go.com/International/wireStory/algerian-president-abdelaziz-bouteflika-step-april-28-decades-62092740",
+      "title": "Televangelist, ex-pastor settle lawsuit alleging sex abuse",
+      "description": "A confidential settlement has been reached in a former Ohio megachurch pastor's lawsuit alleging televangelist Ernest Angley sexually abused and harassed him over a decade, starting in 2004",
+      "url": "https://abcnews.go.com/US/wireStory/televangelist-pastor-settle-lawsuit-alleging-sex-abuse-69030701",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T14:54:17Z",
+      "content": "AKRON, Ohio -- \r\nA confidential settlement was reached in a former Ohio megachurch pastor's lawsuit alleging televangelist Ernest Angley sexually abused and harassed him over a decade, starting in 2004. \r\nThe allegations by Brock Miller, of Myrtle Beach, Sout… [+548 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JUAN A. LOZANO Associated Press",
+      "title": "Trial to begin over Arkema chemical plant fire during Harvey",
+      "description": "A subsidiary of a French chemical manufacturer, along with three senior staff members are set to go on trial this week over a fire at a Houston-area chemical plant that was overwhelmed by Hurricane Harvey's flooding in 2017",
+      "url": "https://abcnews.go.com/US/wireStory/trial-begin-arkema-chemical-plant-fire-harvey-69030387",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T14:25:32Z",
+      "content": "HOUSTON -- \r\nHurricane Harveys historic flooding in 2017 overwhelmed power systems at Arkema Inc.s chemical plant in suburban Houston, eventually causing organic peroxides made at the facility to catch fire and explode, sending noxious black smoke into the ai… [+3031 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "MOGOMOTSI MAGOME Associated Press",
+      "title": "Ex-South African leader de Klerk sorry for apartheid comment",
+      "description": "Former South African president FW de Klerk has apologized and withdrawn his statement that the country's former harsh system of racial separation known as apartheid was not a crime against humanity",
+      "url": "https://abcnews.go.com/International/wireStory/south-african-leader-de-klerk-apartheid-comment-69029981",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T14:07:32Z",
+      "content": "JOHANNESBURG -- \r\nFormer South African president FW de Klerk on Monday apologized and withdrew his statement that the country's former harsh system of racial separation known as apartheid was not a crime against humanity.\r\nDe Klerk, the last president under a… [+1588 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Morgan Winsor",
+      "title": "Pearl Harbor survivor, USS Arizona crew member dies at 97",
+      "description": "One of three remaining USS Arizona crew members who survived the 1941 attack on Pearl Harbor has died.",
+      "url": "https://abcnews.go.com/US/pearl-harbor-survivor-uss-arizona-crew-member-dies/story?id=69028519",
+      "urlToImage": "https://s.abcnews.com/images/US/pearl-harbor-veteran-donald-stratton-1-ap-200217_hpMain_20200217-081854_16x9_992.jpg",
+      "publishedAt": "2020-02-17T14:02:58Z",
+      "content": "One of three remaining USS Arizona crew members who survived the 1941 attack on Pearl Harbor has died.\r\nThe National Park Service confirmed on Sunday the death of 97-year-old Donald Stratton, while announcing in a Facebook post that the flag over the USS Ariz… [+3117 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Emily Southard",
+      "title": "Walt Disney World Resort Photo Ops that Celebrate the 70th Anniversary of ‘Cinderella’",
+      "description": "Released in 1950, Disney’s “Cinderella” is a timeless story with an incredible legacy. Not only is this classic part of the National Film Registry, it’s been cherished by fans of all ages for 70 years thanks to its enduring message about the importance of nev…",
+      "url": "https://disneyparks.disney.go.com/blog/2020/02/walt-disney-world-resort-photo-ops-that-celebrate-the-70th-anniversary-of-cinderella/",
+      "urlToImage": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/02/uywtegvyt67872931.jpg",
+      "publishedAt": "2020-02-17T14:00:17Z",
+      "content": "Released in 1950, Disneys Cinderella is a timeless story with an incredible legacy. Not only is this classic part of the National Film Registry, its been cherished by fans of all ages for 70 years thanks to its enduring message about the importance of never g… [+640 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Jennifer Fickley-Baker",
+      "title": "Good Morning from Pandora – The World of Avatar at Disney’s Animal Kingdom",
+      "description": "It’s a lovely morning at Pandora - The World of AVATAR at Disney’s Animal Kingdom.",
+      "url": "https://disneyparks.disney.go.com/blog/2020/02/good-morning-from-pandora-the-world-of-avatar-at-disneys-animal-kingdom/",
+      "urlToImage": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/02/osgffi.jpg",
+      "publishedAt": "2020-02-17T14:00:08Z",
+      "content": "By submitting this form, you are granting Disney Parks Blog permission to email you. You can revoke permission to mail your email address at any time using the unsubscribe link, found at the bottom of every email. We take your privacy seriously. For more info… [+495 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ALAN SUDERMAN Associated Press",
+      "title": "Virginia lawmakers reject assault weapon ban",
+      "description": "Virginia Gov. Ralph Northam's push to ban the sale of assault weapons has failed after members of his own party balked at the proposal",
+      "url": "https://abcnews.go.com/US/wireStory/virginia-lawmakers-reject-assault-weapon-ban-69029795",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T13:57:58Z",
+      "content": "RICHMOND, Va. -- \r\nVirginia Gov. Ralph Northam's push to ban the sale of assault weapons has failed after members of his own party balked at the proposal. \r\nSenators voted to shelve the bill for the year and ask the state crime commission to study the issue, … [+2221 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Museum's Rembrandt knockoff turns out to be the real thing",
+      "description": "A nearly 400-year-old painting that had long been attributed to someone in Rembrandt’s workshop has now been judged to have been a work of the Dutch master himself",
+      "url": "https://abcnews.go.com/Lifestyle/wireStory/museums-rembrandt-knockoff-turns-real-thing-69029496",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T13:52:25Z",
+      "content": "ALLENTOWN, Pa. -- \r\nThanks to modern technology and some expert detective work, a nearly 400-year-old painting that had long been attributed to an unknown artist in Rembrandts workshop has now been judged to have been a work of the Dutch master himself.\r\nFor … [+2152 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Virginia governor's push to ban sales of assault weapons fails as moderate Democrats balk in state Senate",
+      "description": "Virginia governor's push to ban sales of assault weapons fails as moderate Democrats balk in state Senate",
+      "url": "https://abcnews.go.com/US/wireStory/virginia-governors-push-ban-sales-assault-weapons-fails-69029493",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T13:47:17Z",
+      "content": "RICHMOND, Va. -- \r\nVirginia governor's push to ban sales of assault weapons fails as moderate Democrats balk in state Senate."
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Suicide bomber in SW Pakistan kills 8 at Islamist rally",
+      "description": "Local police in Pakistan's Baluchistan province say a powerful suicide bombing has killed eight people and wounded 16 others after hitting an Islamist rally in the regional capital",
+      "url": "https://abcnews.go.com/International/wireStory/suicide-bomber-sw-pakistan-kills-islamist-rally-69029435",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T13:43:32Z",
+      "content": "QUETTA, Pakistan -- \r\nA powerful suicide bombing killed eight people and wounded 16 others in Pakistan's restive Baluchistan province on Monday, local police said, when it struck an Islamist rally in the regional capital.\r\nPolice said the blast went off near … [+1109 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "AYA BATRAWY Associated Press",
+      "title": "Women in politics: Theresa May recounts 'sticky tape' moment",
+      "description": "Former British Prime Minister Theresa May says she vowed early on in her political career never to think that being a woman held her back",
+      "url": "https://abcnews.go.com/International/wireStory/women-politics-theresa-recounts-sticky-tape-moment-69029326",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_e134c543cfb5445dbd35ab30bd388aeb_16x9_992.jpg",
+      "publishedAt": "2020-02-17T13:39:36Z",
+      "content": "DUBAI, United Arab Emirates -- \r\nFormer British Prime Minister Theresa May said Monday that early on in her political career, she vowed never to think that being a woman held her back. \r\nDon't think that you don't get something because you're a woman, she tol… [+2216 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ROGELIO V. SOLIS and MICHAEL WARREN",
+      "title": "With 'Mother Nature in charge,' dams unleash floodwaters",
+      "description": "Days and days of heavy rain have forced authorities managing dams in Mississippi and Tennessee to release more water, worsening the flooding for people living downstream",
+      "url": "https://abcnews.go.com/US/wireStory/mother-nature-charge-dams-unleash-floodwaters-69029226",
+      "urlToImage": "https://s.abcnews.com/images/US/WireAP_0aafbed369fb40b1b7b9473c8d2f7214_16x9_992.jpg",
+      "publishedAt": "2020-02-17T13:33:20Z",
+      "content": "JACKSON, Miss. -- \r\nDays and days of heavy rain have created a dilemma for authorities managing dams along swollen rivers in Mississippi and Tennessee. The water has to be released eventually, worsening the flooding for people living downstream. \r\nDramatic vi… [+5629 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "EU post-Brexit budget proposal under attack from many sides",
+      "description": "The European Union is in for a bruising week when it comes to the next 7-year budget",
+      "url": "https://abcnews.go.com/International/wireStory/eu-post-brexit-budget-proposal-attack-sides-69028906",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_ef2f9d4c42d74f67a040a4f658f04c9d_16x9_992.jpg",
+      "publishedAt": "2020-02-17T13:14:32Z",
+      "content": "BRUSSELS -- \r\nSeveral EU member states and the European Parliament have rejected for starkly opposing reasons the latest proposal to find a compromise on the European Union's budget, setting up a major fight at a summit later this week. \r\nIn the wake of the l… [+2111 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ELOGE WILLY KANEZA Associated Press",
+      "title": "Largest mass graves uncovered in Burundi with 6,000 bodies",
+      "description": "Authorities in Burundi say they have opened six mass graves containing more than 6,000 bodies from unrest that occurred decades ago, the largest such discovery in years of work",
+      "url": "https://abcnews.go.com/International/wireStory/largest-mass-graves-uncovered-burundi-6000-bodies-69028787",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T13:10:45Z",
+      "content": "NAIROBI, Kenya -- \r\nAuthorities in Burundi say they have opened six mass graves containing more than 6,000 bodies from unrest that occurred decades ago, the largest such discovery in years of work.\r\nThe East African nation has been unearthing such graves from… [+1669 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "MIKE CORDER Associated Press",
+      "title": "Equatorial Guinea: France illegally seized 'embassy'",
+      "description": "Lawyers for Equatorial Guinea have told United Nations judges that French authorities illegally seized a mansion in Paris which they insist operated as the African nation's embassy",
+      "url": "https://abcnews.go.com/International/wireStory/equatorial-guinea-france-illegally-seized-embassy-69028367",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_18505927aead4c4d87c5a18da552d596_16x9_992.jpg",
+      "publishedAt": "2020-02-17T12:26:23Z",
+      "content": "THE HAGUE, Netherlands -- \r\nLawyers for Equatorial Guinea told United Nations judges Monday that French authorities illegally seized a mansion in Paris that the African nation insists operated as its embassy. The building was seized as part of a money launder… [+2078 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "First Russian citizen is diagnosed with COVID-19",
+      "description": "A Russian woman aboard the quarantined Diamond Princess cruise ship in Japan has been diagnosed with COVID-19",
+      "url": "https://abcnews.go.com/Health/wireStory/russian-citizen-diagnosed-covid-19-69028267",
+      "urlToImage": "https://s.abcnews.com/images/Health/WireAP_178a8b3202114c6e859d4898b243e61f_16x9_992.jpg",
+      "publishedAt": "2020-02-17T12:23:36Z",
+      "content": "MOSCOW -- \r\nA Russian woman aboard the quarantined Diamond Princess cruise ship in Japan has become the first Russian citizen to be diagnosed with COVID-19, Russia said Monday. \r\nThe woman on the ship will be transferred to a hospital and receive treatment, t… [+1290 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Suspect in Norway mosque attack charged with terror",
+      "description": "A Norwegian man suspected of killing his stepsister and then storming an Oslo mosque with firearms “with the intention to kill as many Muslims as possible” last year was formally charged Monday with murder and terror",
+      "url": "https://abcnews.go.com/International/wireStory/suspect-norway-mosque-attack-charged-terror-69028070",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T12:18:02Z",
+      "content": "COPENHAGEN, Denmark -- \r\nA Norwegian man suspected of killing his stepsister and then storming an Oslo mosque with firearms with the intention to kill as many Muslims as possible was formally charged Monday with murder and terror. \r\nPhilip Manshaus was overpo… [+1509 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Amid tension, Greece, Turkey hold military-to-military talks",
+      "description": "A delegation of Turkish military officials is due in Athens to resume confidence-building talks amid tension between the two NATO members over maritime oil-and-gas drilling rights",
+      "url": "https://abcnews.go.com/International/wireStory/amid-tension-greece-turkey-hold-military-military-talks-69027871",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T12:09:32Z",
+      "content": "ATHENS, Greece -- \r\nA delegation of Turkish military officials is due in Athens to resume confidence-building talks amid tension between the two NATO members over maritime oil-and-gas drilling rights.\r\nThe talks are due to start in Athens later Monday and las… [+762 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Max Golembo",
+      "title": "More rain expected for the flooded South as new storm moves across country",
+      "description": "We are watching a storm system move across the country to bring more rain to the already flooded South.",
+      "url": "https://abcnews.go.com/US/rain-expected-flooded-south-storm-moves-country/story?id=69027744",
+      "urlToImage": "https://s.abcnews.com/images/US/Southern_Storms_Flooding_Roads_hpMain_20200217-064901_16x9_992.jpg",
+      "publishedAt": "2020-02-17T12:08:55Z",
+      "content": "We are watching a storm system move across the country to bring more rain to the already flooded South.\r\nThis morning, flood warnings continue for rivers across the South from Texas to the Carolinas with major flooding occurring only in Mississippi on the Pea… [+1271 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Macao casinos allowed to reopen after anti-virus closure",
+      "description": "Casinos in the Chinese territory of Macao will be allowed to reopen Friday, ending a 15-day closure imposed to help block the spread of China's virus outbreak",
+      "url": "https://abcnews.go.com/International/wireStory/macao-casinos-allowed-reopen-anti-virus-closure-69027870",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T12:02:32Z",
+      "content": "BEIJING -- \r\nThe Chinese territory of Macao will allow casinos to reopen Friday after a 15-day closure imposed to help block the spread of China's virus outbreak.\r\nThe territorys finance secretary, Lei Wai Nong, announced the decision Monday at a news confere… [+393 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "French pension reform to be debated in parliament",
+      "description": "French President Emmanuel Macron's divisive plan to overhaul the pensions system will be debated in the lower house of parliament on Monday",
+      "url": "https://abcnews.go.com/International/wireStory/french-pension-reform-debated-parliament-69027812",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_28f39add311a4479ae5272279297485e_16x9_992.jpg",
+      "publishedAt": "2020-02-17T11:53:25Z",
+      "content": "PARIS -- \r\nFrench President Emmanuel Macron's divisive plan to overhaul the pensions system will be debated in the lower house of parliament on Monday in a process that could take months, with a final vote expected in the summer.\r\nChanging and streamlining th… [+787 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Amid protests, Greece suspends migrants detention plan",
+      "description": "Greece's government says it is suspending an emergency plan to build migrant detention camps on islands near the Turkish coast to allow for negotiations with local authorities who strongly oppose the initiative",
+      "url": "https://abcnews.go.com/International/wireStory/amid-protests-greece-suspends-migrants-detention-plan-69027778",
+      "urlToImage": "https://s.abcnews.com/images/Politics/WireAP_fd3bd28d7118469989492365df687740_16x9_992.jpg",
+      "publishedAt": "2020-02-17T11:52:31Z",
+      "content": "ATHENS, Greece -- \r\nGreece's government says it is suspending an emergency plan to build migrant detention camps on Greek islands near the Turkish coast to allow for negotiations with local authorities who strongly oppose the move.\r\nNotis Mitarakis, the migra… [+865 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Europe busiest airport hit by a second day of disruptions",
+      "description": "Europe’s busiest airport suffered the knock-on effects of technical issues that disrupted travel over the weekend",
+      "url": "https://abcnews.go.com/International/wireStory/europe-busiest-airport-hit-day-disruptions-69027686",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_7cef2fcf8e494bb3aa58940d255a4b84_16x9_992.jpg",
+      "publishedAt": "2020-02-17T11:50:02Z",
+      "content": "LONDON -- \r\nEuropes busiest airport suffered the knock-on effects Monday of technical issues that disrupted travel over the weekend.\r\nAbout 60 arrivals at Heathrow Airport were disrupted Monday, reflecting almost 10% of the total number. Those troubles come a… [+520 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "AYA BATRAWY Associated Press",
+      "title": "Port operator DP World to delist from Dubai stock exchange",
+      "description": "Port operator DP World says it will delist from the Nasdaq Dubai stock exchange, returning the company to full state-ownership in a move that will help the Dubai government's investment company repay more than $5 billion to banks",
+      "url": "https://abcnews.go.com/Business/wireStory/port-operator-dp-world-delist-dubai-stock-exchange-69027375",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_b1e2ace66b3d47989288f1280999a295_16x9_992.jpg",
+      "publishedAt": "2020-02-17T11:18:23Z",
+      "content": "DUBAI, United Arab Emirates -- \r\nPort operator DP World said Monday it will delist from the Nasdaq Dubai stock exchange, returning the company to full state-ownership in a move that will help the Dubai government's investment company repay more than $5 billio… [+1712 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "AYA BATRAWY Associated Press",
+      "title": "Port operator DP World to delist from Dubai stock exchange",
+      "description": "Port operator DP World says it will delist from the Nasdaq Dubai stock exchange, returning the company to full state-ownership in a move that will help the Dubai government's investment company repay more than $5 billion to banks",
+      "url": "https://abcnews.go.com/International/wireStory/port-operator-dp-world-delist-dubai-stock-exchange-69027332",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_b1e2ace66b3d47989288f1280999a295_16x9_992.jpg",
+      "publishedAt": "2020-02-17T11:18:17Z",
+      "content": "DUBAI, United Arab Emirates -- \r\nPort operator DP World said Monday it will delist from the Nasdaq Dubai stock exchange, returning the company to full state-ownership in a move that will help the Dubai government's investment company repay more than $5 billio… [+1712 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "STEPHEN WADE AP Sports Writer",
+      "title": "Tokyo Marathon limited to elite runners because of virus",
+      "description": "Tokyo Marathon organizers are drastically reducing the number of participants for this year's race out of fear of the spread of the virus from China",
+      "url": "https://abcnews.go.com/Sports/wireStory/tokyo-marathon-limited-elite-runners-virus-69027294",
+      "urlToImage": "https://s.abcnews.com/images/Sports/WireAP_a1b3de22c3f348b89e473b40b97214ab_16x9_992.jpg",
+      "publishedAt": "2020-02-17T11:07:14Z",
+      "content": "TOKYO -- \r\nTokyo Marathon organizers drastically reduced the number of participants for this year's race on Monday out of fear of the spread of the virus coming from China.\r\nThe general public is being barred from the race on March 1. It will now be limited t… [+2230 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "IGNATIUS SSUUNA Associated Press",
+      "title": "Popular Rwandan gospel musician found dead in police cell",
+      "description": "Authorities in Rwanda say a popular gospel musician who in 2015 was found guilty of conspiracy to murder or harm the president has been found dead in a police cell",
+      "url": "https://abcnews.go.com/International/wireStory/popular-rwandan-gospel-musician-found-dead-police-cell-69027259",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T11:03:22Z",
+      "content": "KIGALI, Rwanda -- \r\nA popular Rwandan gospel musician who in 2015 was found guilty of conspiracy to murder or harm President Paul Kagame was found dead in a police cell Monday in the capital, Kigali, authorities said.\r\nKizito Mihigo, 38, an ethnic Tutsi survi… [+2025 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JOE McDONALD AP Business Writer",
+      "title": "Automakers in China gradually reopen after virus shutdown",
+      "description": "Automakers are gradually reopening Chinese factories that were idled by an anti-virus campaign, sending thousands of employees back to work as they try to reverse a sales slump in the global industry's biggest market",
+      "url": "https://abcnews.go.com/Business/wireStory/automakers-china-gradually-reopen-virus-shutdown-69027190",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_aaba3b7110e641bc8f2c7651c6cdacb8_16x9_992.jpg",
+      "publishedAt": "2020-02-17T10:56:43Z",
+      "content": "BEIJING -- \r\nAutomakers are reopening factories in China that were idled by anti-virus controls as they try to reverse a sales slump in their biggest market. \r\nLocal officials have orders from the ruling Communist Party to get businesses functioning again whi… [+2683 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JOE McDONALD AP Business Writer",
+      "title": "Automakers in China gradually reopen after virus shutdown",
+      "description": "Automakers are gradually reopening Chinese factories that were idled by an anti-virus campaign, sending thousands of employees back to work as they try to reverse a sales slump in the global industry's biggest market",
+      "url": "https://abcnews.go.com/International/wireStory/automakers-china-gradually-reopen-virus-shutdown-69027189",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_aaba3b7110e641bc8f2c7651c6cdacb8_16x9_992.jpg",
+      "publishedAt": "2020-02-17T10:51:08Z",
+      "content": "BEIJING -- \r\nAutomakers are reopening factories in China that were idled by anti-virus controls as they try to reverse a sales slump in their biggest market. \r\nLocal officials have orders from the ruling Communist Party to get businesses functioning again whi… [+2683 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "French TGV maker Alstom in talks to buy Bombardier rail unit",
+      "description": "French train maker Alstom is in talks to possibly take over the train business of Bombardier, the Canadian aerospace and engineering company",
+      "url": "https://abcnews.go.com/International/wireStory/french-tgv-maker-alstom-talks-buy-bombardier-rail-69027088",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T10:46:47Z",
+      "content": "PARIS -- \r\nFrench train maker Alstom said Monday that it is in talks to possibly take over the train business of Bombardier, the Canadian aerospace and engineering company.\r\nAlstom, which makes the French TGV high-speed trains, said in a brief statement that … [+1038 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Jon Haworth",
+      "title": "Girl, 6, attacked by mountain lion, saved by adult who punched cat in ribs in mauling",
+      "description": "A six-year-old girl was attacked by a 160-pound mountain lion as she was walking through a park and was rescued just in time when an adult that was nearby punched the cat",
+      "url": "https://abcnews.go.com/US/girl-attacked-mountain-lion-saved-adult-punched-cat/story?id=69027052",
+      "urlToImage": "https://s.abcnews.com/images/US/california-mountain-lion-stock-sh-jef-190429_hpMain_3_16x9_992.jpg",
+      "publishedAt": "2020-02-17T10:35:56Z",
+      "content": "A six-year-old girl was attacked by a 160-pound mountain lion as she was walking through a park and was rescued just in time when an adult that was nearby punched the cat in the ribs.\r\nThe incident occurred on Sunday morning just before 10 a.m. in the Rancho … [+2549 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Body of Pakistani reporter found hours after he went missing",
+      "description": "Pakistani police say the body of a local journalist was found in a canal in the country's southwest just hours after he went missing",
+      "url": "https://abcnews.go.com/International/wireStory/body-pakistani-reporter-found-hours-missing-69027087",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T10:35:00Z",
+      "content": "KARACHI, Pakistan -- \r\nThe body of a Pakistani journalist was found dumped in a canal just hours after he went missing while on his way to work, police said Monday. His family said he was brutally killed but that they have no idea who was behind the slaying. … [+1247 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "2 killed, dozens injured in highway pileup in South Korea",
+      "description": "South Korean officials say two people were killed and 38 others were injured in a highway pileup in snowy weather in the country’s southwest",
+      "url": "https://abcnews.go.com/International/wireStory/killed-dozens-injured-highway-pileup-south-korea-69027086",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_dfba7d301e8d48fd99cb0fbffbb5e1b9_16x9_992.jpg",
+      "publishedAt": "2020-02-17T10:34:18Z",
+      "content": "SEOUL, South Korea -- \r\nTwo people were killed and 38 were injured Monday in a highway pileup in snowy weather in southwestern South Korea, officials said. \r\nThe Jeonbuk Provincial Police Agency said the pileup involved about 30 vehicles, including a chemical… [+458 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Nepal's former parliament speaker acquitted of rape charges",
+      "description": "A court in Nepal has acquitted the former speaker of parliament on charges he raped a government worker at her home while he was intoxicated last year",
+      "url": "https://abcnews.go.com/International/wireStory/nepals-parliament-speaker-acquitted-rape-charges-69027051",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T10:23:02Z",
+      "content": "KATHMANDU, Nepal -- \r\nA court in Nepal acquitted on Monday the former speaker of parliament on charges he raped a government worker at her home while he was intoxicated last year. \r\nKrishna Bahadur Mahara, a senior Communist Party leader, has been in jail sin… [+903 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "New French health minister takes up post with raised profile",
+      "description": "Incoming French health minister, Olivier Veran, a lawmaker and doctor, has been handed the keys to his new ministry while it is in the midst of dealing with the threat of coronavirus",
+      "url": "https://abcnews.go.com/Health/wireStory/french-health-minister-takes-post-raised-profile-69027050",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T10:22:47Z",
+      "content": "Incoming French health minister, Olivier Veran, a lawmaker and doctor, was handed the keys to his new ministry on Monday while it is in middle of dealing with the threat of coronavirus.\r\nHis predecessor Agnes Buzyn, was named a Paris mayoral candidate Sunday,… [+465 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Second of two flights carrying Americans from cruise ship quarantined in Japan during virus crisis lands in Texas",
+      "description": "Second of two flights carrying Americans from cruise ship quarantined in Japan during virus crisis lands in Texas",
+      "url": "https://abcnews.go.com/US/wireStory/flights-carrying-americans-cruise-ship-quarantined-japan-virus-69026788",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T10:11:17Z",
+      "content": "SAN ANTONIO, Texas -- \r\nSecond of two flights carrying Americans from cruise ship quarantined in Japan during virus crisis lands in Texas."
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Morgan Winsor",
+      "title": "14 Americans evacuated from cruise ship in Japan test positive for coronavirus",
+      "description": "More than 300 Americans who were passengers aboard a cruise ship quarantined at sea in Japan over the coronavirus outbreak have evacuated the country.",
+      "url": "https://abcnews.go.com/International/14-americans-evacuated-cruise-ship-japan-test-positive/story?id=69026322",
+      "urlToImage": "https://s.abcnews.com/images/International/americans-bus-tokyo-airport-evacuation-getty-20021_hpMain_20200217-044737_16x9_992.jpg",
+      "publishedAt": "2020-02-17T09:54:58Z",
+      "content": "LONDON -- \r\nMore than 300 Americans who were passengers aboard the Diamond Princess cruise ship, which was quarantined at sea in Japan over the coronavirus outbreak, have evacuated the country on two flights chartered by the U.S. government, officials said.\r\n… [+1878 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "SAM MEDNICK Associated Press",
+      "title": "Gunmen kill 24 in attack near church in Burkina Faso",
+      "description": "An official in Burkina Faso says gunmen killed 24 men and kidnapped three others on Sunday",
+      "url": "https://abcnews.go.com/International/wireStory/gunmen-kill-24-attack-church-burkina-faso-69026660",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T09:48:02Z",
+      "content": "OUAGADOUGOU, Burkina Faso -- \r\nGunmen killed 24 men and kidnapped three others on Sunday in Burkina Faso, an official said.\r\nThe mayor of Boundore commune, Sihanri Osangola Brigadie, said the attack occurred in the town of Pansy in Yagha province.\r\nThe roughl… [+1756 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "YURI KAGEYAMA Associated Press",
+      "title": "Japan confirms 99 more cases of new virus on cruise ship",
+      "description": "Japanese officials have confirmed 99 more people infected by the new virus aboard the quarantined cruise ship Diamond Princess, bringing the total to 454,",
+      "url": "https://abcnews.go.com/International/wireStory/japan-confirms-99-cases-virus-cruise-ship-69026526",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T09:30:30Z",
+      "content": "TOKYO -- \r\nJapanese officials have confirmed 99 more people infected by the new virus aboard the quarantined cruise ship Diamond Princess, bringing the total to 454, the Health Ministry said Monday . \r\nThe ministry has been carrying out tests on passengers an… [+277 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ALBERT AJI Associated Press",
+      "title": "Syria military hails advance against rebels in 'record time'",
+      "description": "Syria's military says its troops have regained control of territories in northwestern Syria “in record time,” vowing to continue to chase armed groups \"wherever they are",
+      "url": "https://abcnews.go.com/International/wireStory/syria-military-hails-advance-rebels-record-time-69026490",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_b543959ded3444beb326be96b2cb10bd_16x9_992.jpg",
+      "publishedAt": "2020-02-17T09:21:32Z",
+      "content": "DAMASCUS, Syria -- \r\nSyria's military announced on Monday that its troops have regained control of territories in northwestern Syria in record time, vowing to continue to chase armed groups \"wherever they are.\" \r\nThe announcement came hours after troops conso… [+3324 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "RISHABH R. JAIN and SHEIKH SAALIQ",
+      "title": "India's top court grants equal rights to women in army",
+      "description": "India’s top court has ordered the government to grant permanent commission and command positions to female officers in the army on par with men, asserting that the government's arguments against the policy were based on gender stereotypes",
+      "url": "https://abcnews.go.com/International/wireStory/indias-top-court-grants-equal-rights-women-army-69026525",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T09:21:17Z",
+      "content": "NEW DELHI -- \r\nIndias top court on Monday ordered the federal government to grant permanent commission and command positions to female officers in the army on par with men, asserting that the government's arguments against the policy were based on gender ster… [+1925 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "NICOLE WINFIELD and MARIA VERZA Associated Press",
+      "title": "Priests of disgraced Legion face trial for obstruction claim",
+      "description": "The Vatican effort to reform the disgraced Legion of Christ religious order is coming under new scrutiny",
+      "url": "https://abcnews.go.com/International/wireStory/priests-disgraced-legion-face-trial-obstruction-claim-69026524",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_e0007883d414495fb00fa76db6f4aacf_16x9_992.jpg",
+      "publishedAt": "2020-02-17T09:19:03Z",
+      "content": "MILAN -- \r\nThe Vatican effort to reform the disgraced Legion of Christ religious order is coming under new scrutiny, with four Legion priests and a Legion lawyer due to stand trial on charges they tried to obstruct justice and extort the family of a sex abuse… [+7086 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Japan confirms 99 more cases of people infected by new virus on quarantined ship Diamond Princess, bringing total to 454",
+      "description": "Japan confirms 99 more cases of people infected by new virus on quarantined ship Diamond Princess, bringing total to 454",
+      "url": "https://abcnews.go.com/International/wireStory/japan-confirms-99-cases-people-infected-virus-quarantined-69026456",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T09:11:44Z",
+      "content": "TOKYO -- \r\nJapan confirms 99 more cases of people infected by new virus on quarantined ship Diamond Princess, bringing total to 454."
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "NICOLE WINFIELD and MARIA VERZA Associated Press",
+      "title": "Disgraced religious order tried to get abuse victim to lie",
+      "description": "Five suspects are scheduled to be tried next month in the latest case against the disgraced Legion of Christ religious order",
+      "url": "https://abcnews.go.com/International/wireStory/disgraced-religious-order-abuse-victim-lie-69026422",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_94fb36469c1648b798386f4116e0ec47_16x9_992.jpg",
+      "publishedAt": "2020-02-17T09:09:34Z",
+      "content": "MILAN -- \r\nThe cardinals response was not what Yolanda Martinez expected -- or could abide.\r\nHer son had been sexually abused by one of the priests of the Legion of Christ, a disgraced religious order. And now she was calling Cardinal Valasio De Paolis -- the… [+14990 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "China says it may postpone March annual congress, its biggest political meeting of the year, because of virus outbreak",
+      "description": "China says it may postpone March annual congress, its biggest political meeting of the year, because of virus outbreak",
+      "url": "https://abcnews.go.com/International/wireStory/china-postpone-march-annual-congress-biggest-political-meeting-69026321",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T08:48:45Z",
+      "content": "BEIJING -- \r\nChina says it may postpone March annual congress, its biggest political meeting of the year, because of virus outbreak."
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "AIJAZ HUSSAIN Associated Press",
+      "title": "British MP who leads Kashmir group denied entry to India",
+      "description": "Indian officials have denied a British lawmaker entry after she landed at New Delhi's Indira Gandhi International Airport",
+      "url": "https://abcnews.go.com/Travel/wireStory/british-mp-leads-kashmir-group-denied-entry-india-69026320",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T08:14:47Z",
+      "content": "NEW DELHI -- \r\nIndian officials denied a British lawmaker entry on Monday after she landed at New Delhi's Indira Gandhi International Airport, according to an accompanying aide.\r\nDebbie Abrahams, a Labour Party Member of Parliament who chairs a parliamentary … [+1745 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Trading quarantines, Americans from cruise land in US",
+      "description": "One of two charter flights carrying cruise ship passengers from Japan landed at a California air force base early Monday",
+      "url": "https://abcnews.go.com/Health/wireStory/trading-quarantines-americans-cruise-land-us-69026319",
+      "urlToImage": "https://s.abcnews.com/images/Health/WireAP_2ae2746331894daaa13524261c365084_16x9_992.jpg",
+      "publishedAt": "2020-02-17T08:07:05Z",
+      "content": "TRAVIS AIR FORCE BASE, Calif. -- \r\nOne of two charter flights carrying cruise ship passengers from Japan landed at a California air force base early Monday.\r\nA plane carrying American passengers touched down at Travis Air Force Base in northern California jus… [+423 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "This Week: Walmart earns, Fed meeting minutes, US home sales",
+      "description": "Walmart serves up its fiscal fourth-quarter results Tuesday",
+      "url": "https://abcnews.go.com/Business/wireStory/week-walmart-earns-fed-meeting-minutes-us-home-69026252",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T08:00:32Z",
+      "content": "A look at some of the key business events and economic indicators upcoming this week:\r\nSTRONG FINISH?\r\nWall Street expects that Walmart closed out its last fiscal year on a high note. \r\nAnalysts predict the nation's largest retailer's fiscal fourth-quarter ea… [+1110 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Chartered flight carrying Americans from cruise ship quarantined in Japan during virus crisis lands in California",
+      "description": "Chartered flight carrying Americans from cruise ship quarantined in Japan during virus crisis lands in California",
+      "url": "https://abcnews.go.com/US/wireStory/chartered-flight-carrying-americans-cruise-ship-quarantined-japan-69026249",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T07:56:02Z",
+      "content": "TRAVIS AIR FORCE BASE, Calif. -- \r\nChartered flight carrying Americans from cruise ship quarantined in Japan during virus crisis lands in California."
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "211M gallons of sewage spilled into Florida city waterways",
+      "description": "Fort Lauderdale officials say 211.6 million gallons of sewage has spilled into Fort Lauderdale waterways in the past few months",
+      "url": "https://abcnews.go.com/Health/wireStory/211m-gallons-sewage-spilled-florida-city-waterways-69026081",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T06:40:15Z",
+      "content": "FORT LAUDERDALE, Fla. -- \r\nFort Lauderdale officials say 211.6 million gallons of sewage has spilled into Fort Lauderdale waterways in the past few months. \r\nThe Sun-Sentinel reports thats enough to fill 320 Olympic-sized pools. \r\nThe citys aging sewer pipes … [+713 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Manatee deaths in Florida drop to 606 in 2019",
+      "description": "State wildlife officials say fewer manatees died in 2019 in Florida compared with the year before",
+      "url": "https://abcnews.go.com/US/wireStory/manatee-deaths-florida-drop-606-2019-69026080",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T06:34:17Z",
+      "content": "FORT LAUDERDALE, Fla. -- \r\nFewer manatees died in 2019 in Florida compared with the year before. \r\nStatewide, manatee deaths decreased to 606 deaths last year, down from 824 in 2018. \r\nExperts say it appears the main cause of the decline in deaths is the redu… [+656 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "TIM SULLIVAN Associated Press",
+      "title": "Father Josh: A married Catholic priest in a celibate world",
+      "description": "In a Catholic world where debates over clerical celibacy have flared from Brazil to the Vatican, Joshua Whitfield is that rarest of things: A married Catholic priest",
+      "url": "https://abcnews.go.com/US/wireStory/father-josh-married-catholic-priest-celibate-world-69026039",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T06:28:50Z",
+      "content": "DALLAS -- \r\nThe priest wakes up at 4 a.m. on the days he celebrates the early Mass, sipping coffee and enjoying the quiet while his young children sleep in rooms awash in stuffed animals and Sesame Street dolls and pictures of saints. Then he kisses his wife … [+9810 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "KATHY GANNON Associated Press",
+      "title": "Afghan refugees tell UN: 'We need peace, land to go home'",
+      "description": "After 40 years of wars and conflict, more than 1.5 million Afghan refugees still live in neighboring Pakistan",
+      "url": "https://abcnews.go.com/International/wireStory/afghan-refugees-peace-land-home-69025847",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_3f06f1b7a44b414a9b65736f1f4154c5_16x9_992.jpg",
+      "publishedAt": "2020-02-17T06:16:50Z",
+      "content": "KEBABYAN CAMP, Pakistan -- \r\nHukam Khan isnt sure how old he is, but his beard is long and white, and when he came to Pakistan 40 years ago fleeing an earlier war in Afghanistan, his children were small, stuffed onto the backs of donkeys and dragged across ru… [+5743 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ELAINE KURTENBACH AP Business Writer",
+      "title": "Asian markets mixed: Japan skids; China helped by rate cut",
+      "description": "Markets are mixed in Asia, with Japan's benchmark slipping 0.7% after the government reported the economy contracted in the last quarter",
+      "url": "https://abcnews.go.com/Business/wireStory/asian-markets-mixed-japan-skids-china-helped-rate-69025781",
+      "urlToImage": "https://s.abcnews.com/images/Business/WireAP_15b4377ab62b411ca2a0708763f07bad_16x9_992.jpg",
+      "publishedAt": "2020-02-17T06:16:17Z",
+      "content": "BANGKOK -- \r\nMarkets were mixed in Asia on Monday, with Japan's benchmark slipping 0.7% after the government reported the economy contracted 6.3% in annual terms in the last quarter. China's shares got a boost after the central bank stepped in to help the eco… [+5113 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Dana Schaeffer",
+      "title": "Passengers stuck on cruise ship due to coronavirus struggle to pass the time",
+      "description": "Officials have found more than 200 cases of COVID-19, also known as the coronavirus, on board the Diamond Princess cruise ship.",
+      "url": "https://abcnews.go.com/International/passengers-stuck-cruise-ship-due-coronavirus-struggle-pass/story?id=69024894",
+      "urlToImage": "https://s.abcnews.com/images/International/diamond-princess-port_hpMain_20200217-003012_16x9_992.jpg",
+      "publishedAt": "2020-02-17T06:12:30Z",
+      "content": "An Oscars screening, tons of movies, internet, and workout classes. Some would say this sounds like a great vacation -- but it isnt the kind of vacation guests on board the Diamond Princess cruise ship were expecting.\r\nOfficials have found more than 200 cases… [+2462 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Toxic gas leak kills 5, sickens dozens in Karachi port city",
+      "description": "Pakistani police say a toxic gas leak has killed five people, including three women, and sickened dozens in a coastal residential area in the port city of Karachi",
+      "url": "https://abcnews.go.com/International/wireStory/toxic-gas-leak-kills-sickens-dozens-karachi-port-69025645",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T05:51:17Z",
+      "content": "KARACHI, Pakistan -- \r\nA toxic gas leak killed five people and sickened dozens of others in a coastal residential area in Pakistan's port city of Karachi, police said Monday. \r\nThe source of the leak, which occurred on Sunday night, and the type of gas that h… [+728 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "HOPE YEN and CALVIN WOODWARD Associated Press",
+      "title": "AP FACT CHECK: Trump's exaggerations on Roger Stone sentence",
+      "description": "President Donald Trump is misrepresenting the Justice Department's handling of the legal case of his confidant, Roger Stone",
+      "url": "https://abcnews.go.com/Business/wireStory/ap-fact-check-trumps-exaggerations-roger-stone-sentence-69025646",
+      "urlToImage": "https://s.abcnews.com/images/Politics/WireAP_fea99afbcfda40008fe750ef7fcde00a_16x9_992.jpg",
+      "publishedAt": "2020-02-17T05:46:51Z",
+      "content": "WASHINGTON -- \r\nPresident Donald Trump is misrepresenting the Justice Department's handling of the legal case of his confidant, Roger Stone.\r\nHe's suggesting rampant bias in the department's initial recommendation to a federal court that Stone be sentenced be… [+14979 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Recent developments surrounding the South China Sea",
+      "description": "Japan plans to provide Indonesia with an ocean-going ship and upgrades to its coast guard to protect its fisheries from Chinese incursions, while the U.S. has flown planes around Taiwan in response to aggressive moves by Chinese aircraft",
+      "url": "https://abcnews.go.com/Travel/wireStory/recent-developments-surrounding-south-china-sea-69025510",
+      "urlToImage": "https://s.abcnews.com/images/Travel/WireAP_1406951907e0400b9f1e0ecae1c54aef_16x9_992.jpg",
+      "publishedAt": "2020-02-17T05:41:35Z",
+      "content": "BEIJING -- \r\nA look at recent developments in the South China Sea, where China is pitted against smaller neighbors in multiple territorial disputes over islands, coral reefs and lagoons. The waters are a major shipping route for global commerce and are rich i… [+5629 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "Police fatally shoot man connected to carjackings, stabbing",
+      "description": "Police officers have fatally shot a man connected to carjackings in Massachusetts and New Hampshire",
+      "url": "https://abcnews.go.com/US/wireStory/police-fatally-shoot-man-connected-carjackings-stabbing-69025418",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T05:38:17Z",
+      "content": "NEWBURY, Mass. -- \r\nPolice officers shot and killed a man connected to carjackings in Massachusetts and New Hampshire, authorities said.\r\nAt a Sunday night press conference, Massachusetts officials said the 31-year-old man shot was believed to have been the s… [+1746 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "New virus has infected more than 71,000 people globally",
+      "description": "A viral outbreak that began in China has infected more than 71,000 people globally",
+      "url": "https://abcnews.go.com/Health/wireStory/virus-infected-70000-people-globally-69025229",
+      "urlToImage": "https://s.abcnews.com/images/Health/WireAP_e4d05f8bbe78472d9332d919975494a2_16x9_992.jpg",
+      "publishedAt": "2020-02-17T05:01:32Z",
+      "content": "A viral outbreak that began in China has infected more than 71,000 people globally. The World Health Organization has named the illness COVID-19, referring to its origin late last year and the coronavirus that causes it. \r\nThe latest figures reported by each … [+726 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "The Associated Press",
+      "title": "1 dead, 3 hurt after motorcycle gang shootout at Texas bar",
+      "description": "One person has been killed and three others injured following a shootout between rival motorcycle gangs at a bar in Midland Texas",
+      "url": "https://abcnews.go.com/US/wireStory/dead-hurt-motorcycle-gang-shootout-texas-bar-69025230",
+      "urlToImage": "null",
+      "publishedAt": "2020-02-17T04:58:00Z",
+      "content": "MIDLAND, Texas -- \r\nOne person was killed and three others injured Sunday following a shootout between rival motorcycle gangs at a bar in Midland Texas, authorities said.\r\nOfficers were called to the Your Place bar at 8:26 p.m. Sunday and discovered four peop… [+483 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": null,
+      "title": "Aussie court says police raid legal, raising secrecy fears",
+      "description": "The Australian Federal Court has ruled that a police raid last year on the country’s national broadcaster was legal, prompting fears of increasing secrecy in Australia's institutions",
+      "url": "https://abcnews.go.com/International/wireStory/aussie-court-police-raid-legal-raising-secrecy-fears-69024895",
       "urlToImage": null,
-      "publishedAt": "2019-04-01T16:22:26Z",
-      "content": "Algerian President Abdelaziz Bouteflika says he will step down by April 28 after two decades in office. ."
+      "publishedAt": "2020-02-17T04:38:17Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ELAINE KURTENBACH AP Business Writer",
+      "title": "Asian markets mixed: Japan skids; China helped by rate cut",
+      "description": "Markets are mixed in Asia, with Japan's benchmark slipping 0.8% after the government reported the economy contracted in the last quarter",
+      "url": "https://abcnews.go.com/Business/wireStory/asian-markets-mixed-japan-skids-china-helped-rate-69024860",
+      "urlToImage": "https://s.abcnews.com/images/Business/WireAP_15b4377ab62b411ca2a0708763f07bad_16x9_992.jpg",
+      "publishedAt": "2020-02-17T04:33:28Z",
+      "content": "BANGKOK -- \r\nMarkets were mixed in Asia on Monday, with Japan's benchmark slipping 0.8% after the government reported the economy contracted 6.3% in annual terms in the last quarter. China's shares got a boost after the central bank stepped in to help the eco… [+4843 chars]"
     },
     {
       "source": {
@@ -138,12 +1295,12 @@
         "name": "ABC News"
       },
       "author": "The Associated Press",
-      "title": "61-year-old serves as surrogate mother for son, his husband",
-      "description": "Get breaking national and world news, broadcast video coverage, and exclusive interviews.  Find the top news online at ABC news.",
-      "url": "https://abcnews.go.com/US/wireStory/61-year-serves-surrogate-mother-son-husband-62092738",
-      "urlToImage": null,
-      "publishedAt": "2019-04-01T16:18:42Z",
-      "content": "A 61-year-old Nebraska woman who served as a surrogate mother for her son and his husband has given birth to a baby girl.\r\nMatthew Eledge and Elliot Dougherty were talking about becoming parents when Eledge's mother and Dougherty's sister offered to help.\r\nCe… [+676 chars]"
+      "title": "Ex-wife of man accused of killing 8 describes 1st shooting",
+      "description": "The ex-wife of a Mississippi man on trial in the shooting deaths of eight people has testified that a sheriff's deputy became the first victim when he was shot in the face by the man she described as “abusive\" and “controlling",
+      "url": "https://abcnews.go.com/US/wireStory/wife-man-accused-killing-describes-1st-shooting-69024569",
+      "urlToImage": "https://s.abcnews.com/images/US/WireAP_10f1d975e978471b8666a532f1f14c30_16x9_992.jpg",
+      "publishedAt": "2020-02-17T04:00:03Z",
+      "content": "MAGNOLIA, Miss. -- \r\nThe now ex-wife of a Mississippi man on trial in the shooting deaths of eight people testified Sunday about how a sheriff's deputy was shot in the face by the man she described as abusive\" and controlling.\" \r\nSheena May was the only witne… [+3088 chars]"
     }
   ]
 }
